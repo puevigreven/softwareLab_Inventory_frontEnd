@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block sidebar %}
+<ul>
+<li><a href="/doctor/{{userid}}/all">Back</a></li>
+</ul>
+{% endblock %}
+
+
+
+{% block content %}
+
+<h1><u>List of appointments</h1></u>
+{% for rp in RequiredPatient %}
+<div>
+
+<p>{{rp.DateOfBirth}}</p>
+<p>{{rp.Contact}}</p>
+<p>{{rp.PatientId}}</p>
+</div>
+<br>
+{% endfor %}
+
+
+
+
+</body>
+</html>
+
+{% endblock %}
+
+
+

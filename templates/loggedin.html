@@ -1,0 +1,109 @@
+{% extends "base2.html" %}
+
+{% block content %}
+
+ <section id="container">
+                <div class="wrap-container">
+                    <section class="content-box boxstyle-1 box-1">
+                        <div class="zerogrid">
+                            <div class="row wrap-box"><!--Start Box-->
+                                
+
+                                <div class="col-1-4">
+                                    <div class="wrap-col">
+                                        <div class="post">
+                                            <a href="/appointments/create/{{userid}}/">     <img width="120" height="120"  src="/static/images/image1.png">  
+                                                <h3>Take Appointment </h3>
+                                                <div class="upload">
+                                                    <p>Check The Calender and Take Appointment According to that
+                                                    </p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                <div class="col-1-4">
+                                    <div class="wrap-col">
+                                        <div class="post">
+                                            <a href="#" target="_blank">      <img width="120" height="120"  src="/static/images/image2.png">
+                                                <h3>New Patient Without UHID</h3>
+                                                <div class="upload">
+                                                    <p>New Patients will be able to take a New appointment for OPD clinics
+                                                    </p>
+                                                </div>  </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+                                <div class="col-1-4">
+                                    <div class="wrap-col"  id="div_CAP">
+                                        <div class="post">
+                                            <a href="/appointments/all/{{userid}}/">     <img width="120" height="120"  src="/static/images/image3.png">
+                                                <h3>View Appointment </h3>
+                                                <div class="upload">
+                                                    <p>Want to view appointment? Click here.
+                                                    </p>
+                                                </div>  </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+                                <div class="col-1-4"  id="div_LRP">
+                                    <div class="wrap-col">
+                                        <div class="post">
+                                            <a href="#" target="_blank">      <img width="120" height="120"  src="/static/images/image4.png">
+                                                <h3>View Laboratory Reports</h3>
+                                                <div class="upload">
+                                                    <p>A patient will be able to view laboratory reports using UHID
+                                                    </p>
+                                                </div>  </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="row wrap-box"><!--Start Box-->
+                                <div class="col-1-1"  id="div_LRP">
+                                    <div class="wrap-col">
+                                        <div class="post">
+                                            <a href="login.jsp" >     
+                                                <h3 style="font-size: 14px">View Admission History</h3>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row wrap-box"><!--Start Box-->
+                                <div class="col-1-2"  id="div_LRP">
+                                    <div class="wrap-col">
+                                        <div class="post">
+                                            <a href="waitingList_new.jsp" target="_blank">     
+                                                <h3 style="font-size: 14px">View Availability Of Appointments For New-Patient</h3>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-1-2"  id="div_LRP">
+                                    <div class="wrap-col">
+                                        <div class="post">
+                                            <a href="waitingList_followup.jsp" target="_blank">      
+                                                <h3 style="font-size: 14px">View Availability Of Appointments For Followup-Patient</h3>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+{% endblock %}

@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block sidebar %}
+
+<ul>
+	<li><a href="/doctor/{{doctor}}/all">Cancel</a></li>
+</ul>
+{% endblock %}
+
+
+{% block content %}
+
+<form action="/doctor/{{doctor}}/search/" method="POST">{% csrf_token %}
+<ul>
+Patient ID : &nbsp;&nbsp;<input type="text" name="pid">
+	<br><br>
+Keyword : &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="hist">
+	<br><br>
+</ul>
+	<br><br>
+<input type="submit" name="submit" value="Search Patient">
+
+</form>
+{% endblock %}

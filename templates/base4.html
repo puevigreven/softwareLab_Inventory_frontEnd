@@ -1,0 +1,78 @@
+{% load static %}
+
+<html lang="en">
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width", initial-scale="1.0">
+
+<title>
+  {% block title %}My base template {% endblock %}
+</title>
+
+
+
+  <link rel="stylesheet" type="text/css" href="{% static "css/default.css" %}" >  
+  <link rel="stylesheet" href="{% static "css/bootstrap.min.css" %}">
+   
+   <link rel="stylesheet" href="{% static "css/style.css" %}" >
+   
+   <link rel="stylesheet" href="{% static "css/style1.css" %}" >
+    <link rel="stylesheet" href="{% static "css/fonts/stylesheet.css" %}" >
+     <link rel="stylesheet" href="{% static "css/menu.css" %}" >
+      <link rel="stylesheet" href="{% static "css/skel.css" %}" >
+       <link rel="stylesheet" href="{% static "css/style2.css" %}" >
+
+   
+
+
+</head>
+<body class="appt">
+<section id="header-wrapper">
+    <div id="header_top">
+        <div class="container">
+            <div class="row">
+                <div class="6u 12u(small)">
+                    <div class="medicare">
+                        <i class="glyphicon glyphicon-plus" aria-hidden="true"></i>
+                        <span>Medical Care</span>
+                    </div>
+                    
+                </div>
+
+                <div class="6u 12u(small)">
+
+                    <ul class="language">
+                        <li><a href="#"></a></li>
+                        <li><a href="faq.jsp">FAQs</a></li>
+                        <li><a href="feedback.jsp">Feedback</a></li>
+                        <li><a href="contact.jsp">Contact</a></li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <div id="page">
+  
+{% block sidebar %}
+    <!--ul>
+    <li><a href="/doctor/all">Patients</a></li>
+    <li><a href="/admin/">Admin</a></li>
+    </ul!-->
+    
+    {% endblock %}
+
+
+  <div id="content">
+    {% block content %}I'm block content{% endblock %}
+
+    <!--img src="{% static "images/Hospital.jpg" %}"!-->
+
+  </div>
+  </div>  
+    
+</body>
+</html>

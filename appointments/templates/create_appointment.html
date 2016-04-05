@@ -1,0 +1,85 @@
+{% extends "base3.html" %}
+
+{% block sidebar %}
+
+
+{% endblock %}
+
+
+
+
+{% block content %}
+<section id="container">
+                <div class="wrap-container clearfix">
+                    <div class="zerogrid">
+                    <br>
+                    <br>
+<div class="container">
+  <div class="row">
+  <div class="col-lg-4">
+<h1><u>List of doctors</h1></u>
+
+{% for practitioners in practitioner %}
+
+<p>{{ practitioners.Practitioner_Name}}</p>
+</div>
+ </div>
+                </div>
+                </div>
+{% endfor %}
+
+<div class="container">
+    <div class="row"><br><br>
+    
+    <div class="col-lg-4">
+                <div class="well well-sm"><strong>Please fill the appointment form</strong></div>
+                </div>
+                </div>
+                </div>
+
+
+<form action="/appointments/create/{{patient_id}}/" method="POST" enctype="multipart/form-data">{% csrf_token %}
+<div class="form-group">
+
+                    <label for="id_NameOfDoctor">NameOfDoctor</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control" name="NameOfDoctor" id="id_NameOfDoctor" maxlength="100" placeholder="Enter Name" required>
+                        <span class="input-group-addon"></span>
+                    </div>
+                    </div>
+
+                    <div class="form-group">
+
+                    <label for="id_DateOfBirth">DateOfBirth</label>
+                    <div class="input-group">
+                        <input type="date" class="form-control" name="DateOfBirth" id="id_DateOfBirth" placeholder="Enter Name" required>
+                        <span class="input-group-addon"></span>
+                    </div>
+                    </div>
+
+                     <div class="form-group">
+
+                    <label for="id_Contact">Contact</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control" name="Contact" id="id_Contact" placeholder="Enter Contact Number" required>
+                        <span class="input-group-addon"></span>
+                    </div>
+                    </div>
+
+
+                    <label for="id_PatientId">PatientId</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control" name="PatientId" id="id_PatientId" placeholder="Enter Name" required>
+                        <span class="input-group-addon"></span>
+                    </div>
+                    </div>
+<input type="submit" name="submit" value="Add Appoitment">
+<ul>
+	<li><a href="/accounts/loggedin/{{patient_id}}">Cancel</a></li>
+</ul>
+
+</form>
+</div>
+</div>
+</section>
+{% endblock %}

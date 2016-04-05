@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block sidebar %}
+<ul>
+<li><a href="/appointments/all">Appointments</a></li>
+<li><a href="/appointments/create">Add new appointment</a></li>
+</ul>
+{% endblock %}
+
+{% block content %}
+ 
+<h1><u>List of appointments</h1></u>
+{% for appointment in appointments %}
+<div>
+
+<p>{{ appointment.NameOfDoctor}}</p>
+<p>{{appointment.DateOfBirth}}</p>
+<p>{{appointment.Contact}}</p>
+<p>{{appointment.PatientId}}</p>
+</div>
+{% endfor %}
+
+
+{% endblock %}

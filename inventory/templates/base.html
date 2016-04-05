@@ -1,0 +1,38 @@
+{% load static %}
+
+<html lang="en">
+<head>
+<body>
+
+<title>
+  {% block title %}My base template {% endblock %}
+</title>
+   <link rel="stylesheet" type="text/css" href="{% static "css/default.css" %}" >
+
+
+  <script src="/static/jquery-2.0.0.min.js" type="text/javascript"></script>
+  <script src="/static/ajax.js" type="text/javascript"></script>
+
+ 
+</head>
+
+<body>
+  <div id="page">
+  <div id="sidebar">
+    {% block sidebar %}
+    <ul>
+    <li><a href="/inventory/all_med">View All Medicines</a></li>
+    <li><a href="/inventory/create">Add Medicines</a></h2></li>
+    </ul>
+    {% endblock %}
+  </div>
+
+  <div id="content">
+    {% block content %}I'm block content{% endblock %}
+
+    
+
+  </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,218 @@
+/* ------------------------------------------------------------------------ */
+/* 05. Main Header Navigation
+/* ------------------------------------------------------------------------ */
+.main-menu {
+	position: relative;
+	z-index: 250;
+	margin: -1px 0 0px;
+	display: inline-block;
+ 	*display:inline;
+	zoom: 1;
+	width: 100%;
+	height: auto;
+}
+.main-menu i {
+	margin-right: 5px;
+	margin-top:-5px;
+}
+.mnav {
+	display: none;
+}
+.sf-menu, .sf-menu * {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: right;
+}
+
+.sf-menu{
+	margin-top:1px;
+}
+.sf-menu ul li ul{
+	position: absolute;
+	top: 0;
+	left:100%;
+	width: 180px; /* left offset of submenus need to match (see below) */
+	text-align: right;
+	}
+.sf-menu ul li {
+	width: 100%;
+	position:relative;
+}
+.sf-menu li:hover {
+	visibility: inherit; /* fixes IE7 'sticky bug' */
+}
+.sf-menu li {
+	position: relative;
+	display: inline-block;
+	*display:inline;
+	zoom:1;
+	
+	vertical-align:middle;
+	font-family: 'ralewaysemibold';
+}
+.sf-menu li a .hm_ico{
+	font-size: 20px;
+	}
+.sf-menu a {
+	display: block;
+	position: relative;
+	
+}
+
+.sf-menu li:hover ul, .sf-menu li.sfHover ul {
+	left: 0;
+	top: 100%; /* match top ul list item height */
+	z-index: 99999;
+}
+ul.sf-menu li:hover li ul, ul.sf-menu li.sfHover li ul {
+	top: 0;
+	left:100%;
+}
+
+ul.sf-menu li li:hover ul, ul.sf-menu li li.sfHover ul {
+	top: 0;
+	left:100%;
+}
+ul.sf-menu li li:hover li ul, ul.sf-menu li li.sfHover li ul {
+	top: -999em;
+}
+ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
+	left: 10em; /* match ul width */
+	top: 0;
+}
+/*** SKIN ***/
+
+.sf-menu a {
+	display: block;
+	padding: 0 16px;
+	height: auto;
+	text-decoration: none;
+	font-size: 14px;
+	line-height:80px;
+	font-family: 'ralewaysemibold';
+	font-weight: normal;
+	text-transform: uppercase;
+	outline: 0;
+	color: #666;
+		
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+	
+	border-top:4px solid transparent;
+	border-bottom:1px solid transparent;
+}
+
+.sf-menu li span{
+	display: none;	
+}
+.sf-menu li {
+	text-transform: capitalize;
+}
+.sf-menu li:first-child {
+	margin-right: 0;
+	border-left: 0;
+}
+.sf-menu li:last-child {
+	background: none;
+	margin-right: 0;
+	border-right: 0;
+}
+.sf-menu li:hover a {
+	color: #0db7c4;
+	
+	border-top-color:#0db7c4;
+	border-bottom-color:#0db7c4; 
+}
+
+.sf-menu li.active a{
+	color:#0db7c4;
+	border-top-color:#0db7c4; 
+	border-bottom-color:#0db7c4; 
+}
+
+/* menu with children */
+.sf-with-ul {
+}
+/* menu with children hover */
+.sfHover .sf-with-ul:hover {
+}
+/* dropdown active */
+
+.sf-menu li.sfHover li a {
+	/*border-bottom: 2px solid #ef7c00;*/
+	color: #666;
+}
+/* SUBMENU 1 */
+
+.sf-menu li ul {
+	text-align: left;
+	
+	position: absolute;
+    top: -999em;
+    z-index: 999999;
+    
+    background:transparent;
+    width: 220px;
+    border-top: 5px solid #211819;
+}
+.sf-menu li ul .current-menu-item a {
+	margin: 0;
+	padding: 0 10px;
+	border-top: none;
+}
+.sf-menu li li {
+	background: none;
+	text-transform: capitalize;
+	width: 100%;
+	border: none;
+	margin: 0;
+	float: left;
+	text-align: left;
+	padding: 0;
+	border-right: 0 !important;
+	border-left: 0 !important;
+	
+
+}
+.sf-menu li li:last-child {
+	border-bottom: 0;
+}
+.sf-menu li li a {
+	color: #E8E8E8;
+	padding: 15px 10px;
+	border-bottom:1px solid rgba(0,0,0,0.6);
+	display:block;
+	font-size: 0.95em;
+	text-transform: capitalize;
+	-webkit-transition: all .5s linear 0s;
+	-moz-transition: all .5s linear 0s;
+	-ms-transition: all .5s linear 0s;
+	-o-transition: all .5s linear 0s;
+	transition: all .5s linear 0s;
+	text-align: left;
+	height: auto;
+	line-height: 0.95em;
+	background:#DA251E;
+}
+.sf-menu li:hover li a{
+color: #fff;
+background:#DA251E;
+}
+.sf-menu li:hover li:hover a, .sf-menu li li.active-sub-men a{
+	color:#fff; 
+	background:rgba(0,0,0,0.6);
+}
+
+.sf-menu li:hover, .sf-menu li.sfHover, .sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
+	outline: 0;
+}
+
+.sf-sub-indicator {
+	display: none;
+}

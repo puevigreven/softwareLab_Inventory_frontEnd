@@ -1,0 +1,1599 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <!--<meta http-equiv="refresh" content="30" />-->
+        <title>Waiting List - Dashboard</title>        
+        <link rel="stylesheet" type="text/css" href="/static/css/portal.css" media="screen" />
+
+
+        <link rel="stylesheet" href="/static/css/hpp-ui.min.css" type="text/css">
+        <link href="/static/css/hpp-ui-theme.css" rel="stylesheet" type="text/css">
+        <link href="/static/css/masterCss.css" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" type="text/css" href="/static/css/default.css" >  
+  <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+   
+   <link rel="stylesheet" href="/static/css/style.css" >
+   <link rel="stylesheet" href="/static/css/style1.css" >
+   <link rel="stylesheet" href="/static/css/zerogrid.css" >
+   <link rel="stylesheet" href="/static/css/responsive.css" >
+   <link rel="stylesheet" href="/static/css/font-awesome.min.css" >
+    </head>
+    <body>        
+    
+        
+        
+<div style="z-index: 101; left: 18px; width: 98%; position: absolute; top: 45px;height: 98px; text-align: center;border-top:1px solid #D1C8C8;">
+    <span style="font-size: 24pt; color: #b54321;">अखिल भारतीय आयुर्विज्ञान संस्थान, नई दिल्ली<br />
+        All India Institute of Medical Sciences, New Delhi</span>
+        <div style="z-index: 101; left: -1px; width: 202px; position: absolute; top: -0px; height: 100px;cursor: pointer;">
+            <img src="/esp/images/aiims.png" />
+        </div>
+     
+    
+</div>
+
+<div align="right" style="z-index: 102; left: 0px; width: 100%; position: absolute; top: 137px; height: 18px; background-color: #b54321;color:#ffffff;font-size:11px;">
+    <span style="margin-right:20px;font-weight:bold;"> Last Updated On : Mar 03, 2016 ,Thursday At 05:47:24 PM</span> 
+</div>
+<div style="z-index: 103; left: 0px; width: 100%; position: absolute; top: 163px;height: 21px; text-align: center;">
+    <span style="font-family: Tahoma; color: #b54321;">
+ 
+        <strong>Welcome to PATIENT-PORTAL </strong>
+        
+    </span>
+</div>
+    
+    <!--Header -->
+        <div class="container-fluid" style="height:45px">
+            <div class="row custom-header-aims navbar-fixed-top" style="height:45px">
+                <p class="col-lg-12 col-md-12">Availability of Appointments (For Followup Patients)</p>
+            </div>
+        </div>
+        <div class="container-fluid custm-margnLR" style="padding-top:60px;">
+
+            <div class="row custm-paddingrow">
+                <div class="input-group has-error col-lg-2 col-md-2">
+                    <span class="input-group-addon" id="basic-addon1"></span>
+                    <input type="text" class="form-control" value="Not Available" aria-describedby="basic-addon1" readonly>
+                </div>
+                <div class="input-group has-primary col-lg-2 col-md-2">
+                    <span class="input-group-addon" id="basic-addon1"></span>
+                    <input type="text" class="form-control" value="Tatkal" aria-describedby="basic-addon1" readonly>
+                </div>
+                <div class="input-group has-success col-lg-2 col-md-2">
+                    <span class="input-group-addon" id="basic-addon1"></span>
+                    <input type="text" class="form-control" value="Available" aria-describedby="basic-addon1" readonly>
+                </div>
+                <div class="input-group has-success col-lg-5 col-md-2">
+                    <span style="text-decoration: underline;cursor: pointer;">
+                        <a href="/esp/waitingList_new.jsp" >Click Here To View Availability Of Appointments For New-Patient</a>
+                    </span>                    
+                </div>
+            </div>        
+
+
+            
+
+            <div class="row border-bottom"></div>
+            <div class="row custm-paddingrow">
+                <div class="col-lg-2 col-md-2 text-center">
+                    <span class="top1stColSty">Department</span>
+                </div>
+                <div class="col-lg-9 col-md-9">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-2 border-right">
+                            <div class="row ">
+                                <div class="col-lg-5 col-md-5"><span class="top2ndColSty">31<sup>th</sup></span></div>
+                                <div class="col-lg-7 col-md-7">
+                                    <div class="row">
+                                        <span class="col-lg-12 col-md-12 topSec3rdColSty">Mar</span>
+                                        <span class="col-lg-12 col-md-12 topSec3rdColSty">2016</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 border-right">
+                            <div class="row ">
+                                <div class="col-lg-5 col-md-5"><span class="top2ndColSty1">01<sup>th</sup></span></div>
+                                <div class="col-lg-7 col-md-7">
+                                    <div class="row">
+                                        <span class="col-lg-12 col-md-12 topSec3rdColSty1">Apr</span>
+                                        <span class="col-lg-12 col-md-12 topSec3rdColSty1">2016</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 border-right">
+                            <div class="row ">
+                                <div class="col-lg-5 col-md-5"><span class="top2ndColSty1">02<sup>th</sup></span></div>
+                                <div class="col-lg-7 col-md-7">
+                                    <div class="row">
+                                        <span class="col-lg-12 col-md-12 topSec3rdColSty1">Apr</span>
+                                        <span class="col-lg-12 col-md-12 topSec3rdColSty1">2016</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 border-right">
+                            <div class="row ">
+                                <div class="col-lg-5 col-md-5"><span class="top2ndColSty1">04<sup>th</sup></span></div>
+                                <div class="col-lg-7 col-md-7">
+                                    <div class="row">
+                                        <span class="col-lg-12 col-md-12 topSec3rdColSty1">Apr</span>
+                                        <span class="col-lg-12 col-md-12 topSec3rdColSty1">2016</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 border-right">
+                            <div class="row ">
+                                <div class="col-lg-5 col-md-5"><span class="top2ndColSty1">05<sup>th</sup></span></div>
+                                <div class="col-lg-7 col-md-7">
+                                    <div class="row">
+                                        <span class="col-lg-12 col-md-12 topSec3rdColSty1">Apr</span>
+                                        <span class="col-lg-12 col-md-12 topSec3rdColSty1">2016</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 border-right">
+                            <div class="row ">
+                                <div class="col-lg-5 col-md-5"><span class="top2ndColSty1">06<sup>th</sup></span></div>
+                                <div class="col-lg-7 col-md-7">
+                                    <div class="row">
+                                        <span class="col-lg-12 col-md-12 topSec3rdColSty1">Apr</span>
+                                        <span class="col-lg-12 col-md-12 topSec3rdColSty1">2016</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-1 col-md-1 custm-toplastcol ">
+                    <div class="text-center">
+                        <span>Next Available Slot</span>
+                    </div>
+                </div>
+            </div>
+            
+
+
+            <!--APPOINTMENT ROW STARTS-->
+            <div class="row border-bottom"></div>
+           <!--  <div class="row custm-paddingrow data-rows" id="div0">-->
+            <div class="row custm-paddingrow data-rows" id="ss">
+                <div class="col-lg-2 col-md-2">
+                    <div class="row custm-secRowSty1col text-center">
+                        <div class="col-lg-12 col-md-12"><span class="">Cardiology</span></div>                      
+                    </div>
+                </div>             
+                <div class="col-lg-9 col-md-9">
+                    <div class="row custm-row2Styeven text-center">
+
+                        
+                        <div class="col-lg-2 col-md-2 border-right">
+                            <span class="col-lg-12 col-md-12 custm-row3col2">NO OPD</span>
+                        </div>
+
+                                               
+
+
+
+                        
+
+                        <div class="col-lg-2 col-md-2 border-right">
+                            
+                            <span class="col-lg-12 custm-row2col3">97</span>
+
+                             
+
+                        </div>
+                                               
+
+
+
+                        
+                        <div class="col-lg-2 col-md-2 border-right">
+                            <span class="col-lg-12 col-md-12 custm-row3col2">NO OPD</span>
+                        </div>
+
+                                               
+
+
+
+                        
+
+                        <div class="col-lg-2 col-md-2 border-right">
+                            
+                            <span class="col-lg-12 custm-row2col3">27</span>
+
+                             
+
+                        </div>
+                                               
+
+
+
+                        
+                        <div class="col-lg-2 col-md-2 border-right">
+                            <span class="col-lg-12 col-md-12 custm-row3col2">NO OPD</span>
+                        </div>
+
+                                               
+
+
+
+                        
+
+                        <div class="col-lg-2 col-md-2 border-right">
+                            
+                            <span class="col-lg-12 custm-row2col3">196</span>
+
+                             
+
+                        </div>
+                                               
+
+
+
+                        
+                    </div>
+                </div>
+
+
+                
+
+
+                <div class="col-lg-1 col-md-1">
+                    <div class="row custm-row2lastcol text-center">
+                        <div class="col-lg-12 col-md-12 custm-fontsizfordate"><span></span>01<sup>th</sup></div>
+                        <div class="col-lg-12 col-md-12 custm-fontsizformonth"><span></span>APR - 2016</div>
+                    </div>
+                </div>
+
+
+
+                
+            </div>        
+
+            <!--APPOINTMENT ROW ENDS-->
+            
+
+
+            <!--APPOINTMENT ROW STARTS-->
+            <div class="row border-bottom"></div>
+           <!--  <div class="row custm-paddingrow data-rows" id="div1">-->
+            <div class="row custm-paddingrow data-rows" id="ss">
+                <div class="col-lg-2 col-md-2">
+                    <div class="row custm-secRowSty1col text-center">
+                        <div class="col-lg-12 col-md-12"><span class="">Central Collection Facility</span></div>                      
+                    </div>
+                </div>             
+                <div class="col-lg-9 col-md-9">
+                    <div class="row custm-row2Styeven text-center">
+
+                        
+                        <div class="col-lg-2 col-md-2 border-right">
+                            <span class="col-lg-12 col-md-12 custm-row3col2">NO OPD</span>
+                        </div>
+
+                                               
+
+
+
+                        
+                        <div class="col-lg-2 col-md-2 border-right">
+                            <span class="col-lg-12 col-md-12 custm-row3col2">NO OPD</span>
+                        </div>
+
+                                               
+
+
+
+                        
+                        <div class="col-lg-2 col-md-2 border-right">
+                            <span class="col-lg-12 col-md-12 custm-row3col2">NO OPD</span>
+                        </div>
+
+                                               
+
+
+
+                        
+                        <div class="col-lg-2 col-md-2 border-right">
+                            <span class="col-lg-12 col-md-12 custm-row3col2">NO OPD</span>
+                        </div>
+
+                                               
+
+
+
+                        
+                        <div class="col-lg-2 col-md-2 border-right">
+                            <span class="col-lg-12 col-md-12 custm-row3col2">NO OPD</span>
+                        </div>
+
+                                               
+
+
+
+                        
+                        <div class="col-lg-2 col-md-2 border-right">
+                            <span class="col-lg-12 col-md-12 custm-row3col2">NO OPD</span>
+                        </div>
+
+                                               
+
+
+
+                        
+                    </div>
+                </div>
+
+
+                
+                <div class="col-lg-1 col-md-1">
+                    <div class="row custm-row2lastcol text-center">
+                        <div class="col-lg-12 col-md-12 custm-fontsizfordate"><span></span><sup></sup>N/A</div>
+                        <div class="col-lg-12 col-md-12 custm-fontsizformonth"><span></span></div>
+                    </div>
+                </div>
+                
+            </div>        
+
+            <!--APPOINTMENT ROW ENDS-->
+            
+
+
+            <!--APPOINTMENT ROW STARTS-->
+            <div class="row border-bottom"></div>
+           <!--  <div class="row custm-paddingrow data-rows" id="div2">-->
+            <div class="row custm-paddingrow data-rows" id="ss">
+                <div class="col-lg-2 col-md-2">
+                    <div class="row custm-secRowSty1col text-center">
+                        <div class="col-lg-12 col-md-12"><span class="">Clinical Microbiology (Room No.28)</span></div>                      
+                    </div>
+                </div>             
+                <div class="col-lg-9 col-md-9">
+                    <div class="row custm-row2Styeven text-center">
+
+                        
+                        <div class="col-lg-2 col-md-2 border-right">
+                            <span class="col-lg-12 col-md-12 custm-row3col2">NO OPD</span>
+                        </div>
+
+                                               
+
+
+
+                        
+                        <div class="col-lg-2 col-md-2 border-right">
+                            <span class="col-lg-12 col-md-12 custm-row3col2">NO OPD</span>
+                        </div>
+
+                                               
+
+
+
+                        
+                        <div class="col-lg-2 col-md-2 border-right">
+                            <span class="col-lg-12 col-md-12 custm-row3col2">NO OPD</span>
+                        </div>
+
+                                               
+
+
+
+                        
+                        <div class="col-lg-2 col-md-2 border-right">
+                            <span class="col-lg-12 col-md-12 custm-row3col2">NO OPD</span>
+                        </div>
+
+                                               
+
+
+
+                        
+                        <div class="col-lg-2 col-md-2 border-right">
+                            <span class="col-lg-12 col-md-12 custm-row3col2">NO OPD</span>
+                        </div>
+
+                                               
+
+
+
+                        
+                        <div class="col-lg-2 col-md-2 border-right">
+                            <span class="col-lg-12 col-md-12 custm-row3col2">NO OPD</span>
+                        </div>
+
+                                               
+
+
+
+                        
+                    </div>
+                </div>
+
+
+                
+                <div class="col-lg-1 col-md-1">
+                    <div class="row custm-row2lastcol text-center">
+                        <div class="col-lg-12 col-md-12 custm-fontsizfordate"><span></span><sup></sup>N/A</div>
+                        <div class="col-lg-12 col-md-12 custm-fontsizformonth"><span></span></div>
+                    </div>
+                </div>
+                
+            </div>        
+
+            <!--APPOINTMENT ROW ENDS-->
+            
+
+
+            <!--APPOINTMENT ROW STARTS-->
+            <div class="row border-bottom"></div>
+           <!--  <div class="row custm-paddingrow data-rows" id="div3">-->
+            <div class="row custm-paddingrow data-rows" id="ss">
+                <div class="col-lg-2 col-md-2">
+                    <div class="row custm-secRowSty1col text-center">
+                        <div class="col-lg-12 col-md-12"><span class="">Conservative Dentistry and Endodontics</span></div>                      
+                    </div>
+                </div>             
+                <div class="col-lg-9 col-md-9">
+                    <div class="row custm-row2Styeven text-center">
+
+                        
+                        <div class="col-lg-2 col-md-2 border-right">
+                            <span class="col-lg-12 col-md-12 custm-row3col2">NO OPD</span>
+                        </div>
+
+                                               
+
+
+
+                        
+
+                        <div class="col-lg-2 col-md-2 border-right">
+                            
+                            <span class="col-lg-12 custm-row2col3">14</span>
+
+                             
+
+                        </div>
+                                               
+
+
+
+                        
+                        <div class="col-lg-2 col-md-2 border-right">
+                            <span class="col-lg-12 col-md-12 custm-row3col2">NO OPD</span>
+                        </div>
+
+                                               
+
+
+
+                        
+                        <div class="col-lg-2 col-md-2 border-right">
+                            <span class="col-lg-12 col-md-12 custm-row3col2">NO OPD</span>
+                        </div>
+
+                                               
+
+
+
+                        
+                        <div class="col-lg-2 col-md-2 border-right">
+                            <span class="col-lg-12 col-md-12 custm-row3col2">NO OPD</span>
+                        </div>
+
+                                               
+
+
+
+                        
+                        <div class="col-lg-2 col-md-2 border-right">
+                            <span class="col-lg-12 col-md-12 custm-row3col2">NO OPD</span>
+                        </div>
+
+                                               
+
+
+
+                        
+                    </div>
+                </div>
+
+
+                
+
+
+                <div class="col-lg-1 col-md-1">
+                    <div class="row custm-row2lastcol text-center">
+                        <div class="col-lg-12 col-md-12 custm-fontsizfordate"><span></span>01<sup>th</sup></div>
+                        <div class="col-lg-12 col-md-12 custm-fontsizformonth"><span></span>APR - 2016</div>
+                    </div>
+                </div>
+
+
+
+                
+            </div>        
+
+            <!--APPOINTMENT ROW ENDS-->
+            
+
+
+            <!--APPOINTMENT ROW STARTS-->
+            <div class="row border-bottom"></div>
+           <!--  <div class="row custm-paddingrow data-rows" id="div4">-->
+            <div class="row custm-paddingrow data-rows" id="ss">
+                <div class="col-lg-2 col-md-2">
+                    <div class="row custm-secRowSty1col text-center">
+                        <div class="col-lg-12 col-md-12"><span class="">Dental Centre (CDER)</span></div>                      
+                    </div>
+                </div>             
+                <div class="col-lg-9 col-md-9">
+                    <div class="row custm-row2Styeven text-center">
+
+                        
+                        <div class="col-lg-2 col-md-2 border-right">
+                            <span class="col-lg-12 custm-row4col2">00</span>
+                        </div>
+
+                                               
+
+
+
+                        
+
+                        <div class="col-lg-2 col-md-2 border-right">
+                            
+                            <span class="col-lg-12 custm-row2col3">10</span>
+
+                             
+
+                        </div>
+                                               
+
+
+
+                        
+
+                        <div class="col-lg-2 col-md-2 border-right">
+                            
+                            <span class="col-lg-12 custm-row2col3">20</span>
+
+                             
+
+                        </div>
+                                               
+
+
+
+                        
+                        <div class="col-lg-2 col-md-2 border-right">
+                            <span class="col-lg-12 col-md-12 custm-row3col2">NO OPD</span>
+                        </div>
+
+                                               
+
+
+
+                        
+
+                        <div class="col-lg-2 col-md-2 border-right">
+                            
+                            <span class="col-lg-12 custm-row2col3">20</span>
+
+                             
+
+                        </div>
+                                               
+
+
+
+                        
+
+                        <div class="col-lg-2 col-md-2 border-right">
+                            
+                            <span class="col-lg-12 custm-row2col3">10</span>
+
+                             
+
+                        </div>
+                                               
+
+
+
+                        
+                    </div>
+                </div>
+
+
+                
+
+
+                <div class="col-lg-1 col-md-1">
+                    <div class="row custm-row2lastcol text-center">
+                        <div class="col-lg-12 col-md-12 custm-fontsizfordate"><span></span>01<sup>th</sup></div>
+                        <div class="col-lg-12 col-md-12 custm-fontsizformonth"><span></span>APR - 2016</div>
+                    </div>
+                </div>
+
+
+
+                
+            </div>        
+
+            <!--APPOINTMENT ROW ENDS-->
+            
+
+
+            <!--APPOINTMENT ROW STARTS-->
+            <div class="row border-bottom"></div>
+           <!--  <div class="row custm-paddingrow data-rows" id="div5">-->
+            <div class="row custm-paddingrow data-rows" id="ss">
+                <div class="col-lg-2 col-md-2">
+                    <div class="row custm-secRowSty1col text-center">
+                        <div class="col-lg-12 col-md-12"><span class="">Dental/Oral Medicine </span></div>                      
+                    </div>
+                </div>             
+                <div class="col-lg-9 col-md-9">
+                    <div class="row custm-row2Styeven text-center">
+
+                        
+                        <div class="col-lg-2 col-md-2 border-right">
+                            <span class="col-lg-12 custm-row4col2">00</span>
+                        </div>
+
+                                               
+
+
+
+                        
+
+                        <div class="col-lg-2 col-md-2 border-right">
+                            
+                            <span class="col-lg-12 custm-row2col3">593</span>
+
+                             
+
+                        </div>
+                                               
+
+
+
+                        
+
+                        <div class="col-lg-2 col-md-2 border-right">
+                            
+                            <span class="col-lg-12 custm-row2col3">592</span>
+
+                             
+
+                        </div>
+                                               
+
+
+
+                        
+
+                        <div class="col-lg-2 col-md-2 border-right">
+                            
+                            <span class="col-lg-12 custm-row2col3">596</span>
+
+                             
+
+                        </div>
+                                               
+
+
+
+                        
+
+                        <div class="col-lg-2 col-md-2 border-right">
+                            
+                            <span class="col-lg-12 custm-row2col3">597</span>
+
+                             
+
+                        </div>
+                                               
+
+
+
+                        
+
+                        <div class="col-lg-2 col-md-2 border-right">
+                            
+                            <span class="col-lg-12 custm-row2col3">596</span>
+
+                             
+
+                        </div>
+                                               
+
+
+
+                        
+                    </div>
+                </div>
+
+
+                
+
+
+                <div class="col-lg-1 col-md-1">
+                    <div class="row custm-row2lastcol text-center">
+                        <div class="col-lg-12 col-md-12 custm-fontsizfordate"><span></span>01<sup>th</sup></div>
+                        <div class="col-lg-12 col-md-12 custm-fontsizformonth"><span></span>APR - 2016</div>
+                    </div>
+                </div>
+
+
+
+                
+            </div>        
+
+            <!--APPOINTMENT ROW ENDS-->
+            
+
+
+            <!--APPOINTMENT ROW STARTS-->
+            <div class="row border-bottom"></div>
+           <!--  <div class="row custm-paddingrow data-rows" id="div6">-->
+            <div class="row custm-paddingrow data-rows" id="ss">
+                <div class="col-lg-2 col-md-2">
+                    <div class="row custm-secRowSty1col text-center">
+                        <div class="col-lg-12 col-md-12"><span class="">Endocrinology</span></div>                      
+                    </div>
+                </div>             
+                <div class="col-lg-9 col-md-9">
+                    <div class="row custm-row2Styeven text-center">
+
+                        
+                        <div class="col-lg-2 col-md-2 border-right">
+                            <span class="col-lg-12 custm-row4col2">00</span>
+                        </div>
+
+                                               
+
+
+
+                        
+
+                        <div class="col-lg-2 col-md-2 border-right">
+                            
+                            <span class="col-lg-12 custm-row2col3">447</span>
+
+                             
+
+                        </div>
+                                               
+
+
+
+                        
+                        <div class="col-lg-2 col-md-2 border-right">
+                            <span class="col-lg-12 col-md-12 custm-row3col2">NO OPD</span>
+                        </div>
+
+                                               
+
+
+
+                        
+
+                        <div class="col-lg-2 col-md-2 border-right">
+                            
+                            <span class="col-lg-12 custm-row2col3">460</span>
+
+                             
+
+                        </div>
+                                               
+
+
+
+                        
+
+                        <div class="col-lg-2 col-md-2 border-right">
+                            
+                            <span class="col-lg-12 custm-row2col3">505</span>
+
+                             
+
+                        </div>
+                                               
+
+
+
+                        
+
+                        <div class="col-lg-2 col-md-2 border-right">
+                            
+                            <span class="col-lg-12 custm-row2col3">497</span>
+
+                             
+
+                        </div>
+                                               
+
+
+
+                        
+                    </div>
+                </div>
+
+
+                
+
+
+                <div class="col-lg-1 col-md-1">
+                    <div class="row custm-row2lastcol text-center">
+                        <div class="col-lg-12 col-md-12 custm-fontsizfordate"><span></span>01<sup>th</sup></div>
+                        <div class="col-lg-12 col-md-12 custm-fontsizformonth"><span></span>APR - 2016</div>
+                    </div>
+                </div>
+
+
+
+                
+            </div>        
+
+            <!--APPOINTMENT ROW ENDS-->
+            
+
+
+            <!--APPOINTMENT ROW STARTS-->
+            <div class="row border-bottom"></div>
+           <!--  <div class="row custm-paddingrow data-rows" id="div7">-->
+            <div class="row custm-paddingrow data-rows" id="ss">
+                <div class="col-lg-2 col-md-2">
+                    <div class="row custm-secRowSty1col text-center">
+                        <div class="col-lg-12 col-md-12"><span class="">ENT</span></div>                      
+                    </div>
+                </div>             
+                <div class="col-lg-9 col-md-9">
+                    <div class="row custm-row2Styeven text-center">
+
+                        
+                        <div class="col-lg-2 col-md-2 border-right">
+                            <span class="col-lg-12 custm-row4col2">00</span>
+                        </div>
+
+                                               
+
+
+
+                        
+
+                        <div class="col-lg-2 col-md-2 border-right">
+                            
+                            <span class="col-lg-12 custm-row2col3">2505</span>
+
+                             
+
+                        </div>
+                                               
+
+
+
+                        
+
+                        <div class="col-lg-2 col-md-2 border-right">
+                            
+                            <span class="col-lg-12 custm-row2col3">2461</span>
+
+                             
+
+                        </div>
+                                               
+
+
+
+                        
+
+                        <div class="col-lg-2 col-md-2 border-right">
+                            
+                            <span class="col-lg-12 custm-row2col3">2534</span>
+
+                             
+
+                        </div>
+                                               
+
+
+
+                        
+
+                        <div class="col-lg-2 col-md-2 border-right">
+                            
+                            <span class="col-lg-12 custm-row2col3">2573</span>
+
+                             
+
+                        </div>
+                                               
+
+
+
+                        
+
+                        <div class="col-lg-2 col-md-2 border-right">
+                            
+                            <span class="col-lg-12 custm-row2col3">2487</span>
+
+                             
+
+                        </div>
+                                               
+
+
+
+                        
+                    </div>
+                </div>
+
+
+                
+
+
+                <div class="col-lg-1 col-md-1">
+                    <div class="row custm-row2lastcol text-center">
+                        <div class="col-lg-12 col-md-12 custm-fontsizfordate"><span></span>01<sup>th</sup></div>
+                        <div class="col-lg-12 col-md-12 custm-fontsizformonth"><span></span>APR - 2016</div>
+                    </div>
+                </div>
+
+
+
+                
+            </div>        
+
+            <!--APPOINTMENT ROW ENDS-->
+            
+
+
+            <!--APPOINTMENT ROW STARTS-->
+            <div class="row border-bottom"></div>
+           <!--  <div class="row custm-paddingrow data-rows" id="div8">-->
+            <div class="row custm-paddingrow data-rows" id="ss">
+                <div class="col-lg-2 col-md-2">
+                    <div class="row custm-secRowSty1col text-center">
+                        <div class="col-lg-12 col-md-12"><span class="">Gastroenterology</span></div>                      
+                    </div>
+                </div>             
+                <div class="col-lg-9 col-md-9">
+                    <div class="row custm-row2Styeven text-center">
+
+                        
+                        <div class="col-lg-2 col-md-2 border-right">
+                            <span class="col-lg-12 custm-row4col2">00</span>
+                        </div>
+
+                                               
+
+
+
+                        
+
+                        <div class="col-lg-2 col-md-2 border-right">
+                            
+                            <span class="col-lg-12 custm-row2col3">1276</span>
+
+                             
+
+                        </div>
+                                               
+
+
+
+                        
+                        <div class="col-lg-2 col-md-2 border-right">
+                            <span class="col-lg-12 col-md-12 custm-row3col2">NO OPD</span>
+                        </div>
+
+                                               
+
+
+
+                        
+
+                        <div class="col-lg-2 col-md-2 border-right">
+                            
+                            <span class="col-lg-12 custm-row2col3">1309</span>
+
+                             
+
+                        </div>
+                                               
+
+
+
+                        
+
+                        <div class="col-lg-2 col-md-2 border-right">
+                            
+                            <span class="col-lg-12 custm-row2col3">1315</span>
+
+                             
+
+                        </div>
+                                               
+
+
+
+                        
+
+                        <div class="col-lg-2 col-md-2 border-right">
+                            
+                            <span class="col-lg-12 custm-row2col3">1173</span>
+
+                             
+
+                        </div>
+                                               
+
+
+
+                        
+                    </div>
+                </div>
+
+
+                
+
+
+                <div class="col-lg-1 col-md-1">
+                    <div class="row custm-row2lastcol text-center">
+                        <div class="col-lg-12 col-md-12 custm-fontsizfordate"><span></span>01<sup>th</sup></div>
+                        <div class="col-lg-12 col-md-12 custm-fontsizformonth"><span></span>APR - 2016</div>
+                    </div>
+                </div>
+
+
+
+                
+            </div>        
+
+            <!--APPOINTMENT ROW ENDS-->
+            
+
+
+            <!--APPOINTMENT ROW STARTS-->
+            <div class="row border-bottom"></div>
+           <!--  <div class="row custm-paddingrow data-rows" id="div9">-->
+            <div class="row custm-paddingrow data-rows" id="ss">
+                <div class="col-lg-2 col-md-2">
+                    <div class="row custm-secRowSty1col text-center">
+                        <div class="col-lg-12 col-md-12"><span class="">Geriatic Medicine</span></div>                      
+                    </div>
+                </div>             
+                <div class="col-lg-9 col-md-9">
+                    <div class="row custm-row2Styeven text-center">
+
+                        
+                        <div class="col-lg-2 col-md-2 border-right">
+                            <span class="col-lg-12 custm-row4col2">00</span>
+                        </div>
+
+                                               
+
+
+
+                        
+
+                        <div class="col-lg-2 col-md-2 border-right">
+                            
+                            <span class="col-lg-12 custm-row2col3">823</span>
+
+                             
+
+                        </div>
+                                               
+
+
+
+                        
+
+                        <div class="col-lg-2 col-md-2 border-right">
+                            
+                            <span class="col-lg-12 custm-row2col3">874</span>
+
+                             
+
+                        </div>
+                                               
+
+
+
+                        
+
+                        <div class="col-lg-2 col-md-2 border-right">
+                            
+                            <span class="col-lg-12 custm-row2col3">725</span>
+
+                             
+
+                        </div>
+                                               
+
+
+
+                        
+
+                        <div class="col-lg-2 col-md-2 border-right">
+                            
+                            <span class="col-lg-12 custm-row2col3">879</span>
+
+                             
+
+                        </div>
+                                               
+
+
+
+                        
+
+                        <div class="col-lg-2 col-md-2 border-right">
+                            
+                            <span class="col-lg-12 custm-row2col3">836</span>
+
+                             
+
+                        </div>
+                                               
+
+
+
+                        
+                    </div>
+                </div>
+
+
+                
+
+
+                <div class="col-lg-1 col-md-1">
+                    <div class="row custm-row2lastcol text-center">
+                        <div class="col-lg-12 col-md-12 custm-fontsizfordate"><span></span>01<sup>th</sup></div>
+                        <div class="col-lg-12 col-md-12 custm-fontsizformonth"><span></span>APR - 2016</div>
+                    </div>
+                </div>
+
+
+
+                
+            </div>        
+
+            <!--APPOINTMENT ROW ENDS-->
+            
+
+
+            <!--APPOINTMENT ROW STARTS-->
+            <div class="row border-bottom"></div>
+           <!--  <div class="row custm-paddingrow data-rows" id="div10">-->
+            <div class="row custm-paddingrow data-rows" id="ss">
+                <div class="col-lg-2 col-md-2">
+                    <div class="row custm-secRowSty1col text-center">
+                        <div class="col-lg-12 col-md-12"><span class="">G.I. Surgery</span></div>                      
+                    </div>
+                </div>             
+                <div class="col-lg-9 col-md-9">
+                    <div class="row custm-row2Styeven text-center">
+
+                        
+                        <div class="col-lg-2 col-md-2 border-right">
+                            <span class="col-lg-12 col-md-12 custm-row3col2">NO OPD</span>
+                        </div>
+
+                                               
+
+
+
+                        
+
+                        <div class="col-lg-2 col-md-2 border-right">
+                            
+                            <span class="col-lg-12 custm-row2col3">1195</span>
+
+                             
+
+                        </div>
+                                               
+
+
+
+                        
+                        <div class="col-lg-2 col-md-2 border-right">
+                            <span class="col-lg-12 col-md-12 custm-row3col2">NO OPD</span>
+                        </div>
+
+                                               
+
+
+
+                        
+
+                        <div class="col-lg-2 col-md-2 border-right">
+                            
+                            <span class="col-lg-12 custm-row2col3">1174</span>
+
+                             
+
+                        </div>
+                                               
+
+
+
+                        
+                        <div class="col-lg-2 col-md-2 border-right">
+                            <span class="col-lg-12 col-md-12 custm-row3col2">NO OPD</span>
+                        </div>
+
+                                               
+
+
+
+                        
+
+                        <div class="col-lg-2 col-md-2 border-right">
+                            
+                            <span class="col-lg-12 custm-row2col3">1379</span>
+
+                             
+
+                        </div>
+                                               
+
+
+
+                        
+                    </div>
+                </div>
+
+
+                
+
+
+                <div class="col-lg-1 col-md-1">
+                    <div class="row custm-row2lastcol text-center">
+                        <div class="col-lg-12 col-md-12 custm-fontsizfordate"><span></span>01<sup>th</sup></div>
+                        <div class="col-lg-12 col-md-12 custm-fontsizformonth"><span></span>APR - 2016</div>
+                    </div>
+                </div>
+
+
+
+                
+            </div>        
+
+            <!--APPOINTMENT ROW ENDS-->
+            
+
+
+            <!--APPOINTMENT ROW STARTS-->
+            <div class="row border-bottom"></div>
+           <!--  <div class="row custm-paddingrow data-rows" id="div11">-->
+            <div class="row custm-paddingrow data-rows" id="ss">
+                <div class="col-lg-2 col-md-2">
+                    <div class="row custm-secRowSty1col text-center">
+                        <div class="col-lg-12 col-md-12"><span class="">Hematology</span></div>                      
+                    </div>
+                </div>             
+                <div class="col-lg-9 col-md-9">
+                    <div class="row custm-row2Styeven text-center">
+
+                        
+                        <div class="col-lg-2 col-md-2 border-right">
+                            <span class="col-lg-12 col-md-12 custm-row3col2">NO OPD</span>
+                        </div>
+
+                                               
+
+
+
+                        
+
+                        <div class="col-lg-2 col-md-2 border-right">
+                            
+                            <span class="col-lg-12 custm-row2col3">685</span>
+
+                             
+
+                        </div>
+                                               
+
+
+
+                        
+                        <div class="col-lg-2 col-md-2 border-right">
+                            <span class="col-lg-12 col-md-12 custm-row3col2">NO OPD</span>
+                        </div>
+
+                                               
+
+
+
+                        
+
+                        <div class="col-lg-2 col-md-2 border-right">
+                            
+                            <span class="col-lg-12 custm-row2col3">691</span>
+
+                             
+
+                        </div>
+                                               
+
+
+
+                        
+                        <div class="col-lg-2 col-md-2 border-right">
+                            <span class="col-lg-12 col-md-12 custm-row3col2">NO OPD</span>
+                        </div>
+
+                                               
+
+
+
+                        
+
+                        <div class="col-lg-2 col-md-2 border-right">
+                            
+                            <span class="col-lg-12 custm-row2col3">691</span>
+
+                             
+
+                        </div>
+                                               
+
+
+
+                        
+                    </div>
+                </div>
+
+
+                
+
+
+                <div class="col-lg-1 col-md-1">
+                    <div class="row custm-row2lastcol text-center">
+                        <div class="col-lg-12 col-md-12 custm-fontsizfordate"><span></span>01<sup>th</sup></div>
+                        <div class="col-lg-12 col-md-12 custm-fontsizformonth"><span></span>APR - 2016</div>
+                    </div>
+                </div>
+
+
+
+                
+            </div>        
+
+            <!--APPOINTMENT ROW ENDS-->
+            
+
+
+            <!--APPOINTMENT ROW STARTS-->
+            <div class="row border-bottom"></div>
+           <!--  <div class="row custm-paddingrow data-rows" id="div12">-->
+            <div class="row custm-paddingrow data-rows" id="ss">
+                <div class="col-lg-2 col-md-2">
+                    <div class="row custm-secRowSty1col text-center">
+                        <div class="col-lg-12 col-md-12"><span class="">Medical Oncology</span></div>                      
+                    </div>
+                </div>             
+                <div class="col-lg-9 col-md-9">
+                    <div class="row custm-row2Styeven text-center">
+
+                        
+                        <div class="col-lg-2 col-md-2 border-right">
+                            <span class="col-lg-12 col-md-12 custm-row3col2">NO OPD</span>
+                        </div>
+
+                                               
+
+
+
+                        
+                        <div class="col-lg-2 col-md-2 border-right">
+                            <span class="col-lg-12 col-md-12 custm-row3col2">NO OPD</span>
+                        </div>
+
+                                               
+
+
+
+                        
+
+                        <div class="col-lg-2 col-md-2 border-right">
+                            
+                            <span class="col-lg-12 custm-row2col3">50</span>
+
+                             
+
+                        </div>
+                                               
+
+
+
+                        
+                        <div class="col-lg-2 col-md-2 border-right">
+                            <span class="col-lg-12 col-md-12 custm-row3col2">NO OPD</span>
+                        </div>
+
+                                               
+
+
+
+                        
+                        <div class="col-lg-2 col-md-2 border-right">
+                            <span class="col-lg-12 col-md-12 custm-row3col2">NO OPD</span>
+                        </div>
+
+                                               
+
+
+
+                        
+                        <div class="col-lg-2 col-md-2 border-right">
+                            <span class="col-lg-12 col-md-12 custm-row3col2">NO OPD</span>
+                        </div>
+
+                                               
+
+
+
+                        
+                    </div>
+                </div>
+
+
+                
+
+
+                <div class="col-lg-1 col-md-1">
+                    <div class="row custm-row2lastcol text-center">
+                        <div class="col-lg-12 col-md-12 custm-fontsizfordate"><span></span>02<sup>th</sup></div>
+                        <div class="col-lg-12 col-md-12 custm-fontsizformonth"><span></span>APR - 2016</div>
+                    </div>
+                </div>
+
+
+
+                
+            </div>        
+
+            <!--APPOINTMENT ROW ENDS-->
+            
+
+
+            <!--APPOINTMENT ROW STARTS-->
+            <div class="row border-bottom"></div>
+           <!--  <div class="row custm-paddingrow data-rows" id="div13">-->
+            <div class="row custm-paddingrow data-rows" id="ss">
+                <div class="col-lg-2 col-md-2">
+                    <div class="row custm-secRowSty1col text-center">
+                        <div class="col-lg-12 col-md-12"><span class="">Medicine </span></div>                      
+                    </div>
+                </div>             
+                <div class="col-lg-9 col-md-9">
+                    <div class="row custm-row2Styeven text-center">
+
+                        
+
+                        <div class="col-lg-2 col-md-2 border-right">
+                            
+
+                            <span class="col-lg-12 custm-row2col2">60</span>
+                             
+
+                        </div>
+                                               
+
+
+
+                        
+
+                        <div class="col-lg-2 col-md-2 border-right">
+                            
+                            <span class="col-lg-12 custm-row2col3">3539</span>
+
+                             
+
+                        </div>
+                                               
+
+
+
+                        
+
+                        <div class="col-lg-2 col-md-2 border-right">
+                            
+                            <span class="col-lg-12 custm-row2col3">1696</span>
+
+                             
+
+                        </div>
+                                               
+
+
+
+                        
+
+                        <div class="col-lg-2 col-md-2 border-right">
+                            
+                            <span class="col-lg-12 custm-row2col3">3605</span>
+
+                             
+
+                        </div>
+                                               
+
+
+
+                        
+
+                        <div class="col-lg-2 col-md-2 border-right">
+                            
+                            <span class="col-lg-12 custm-row2col3">3602</span>
+
+                             
+
+                        </div>
+                                               
+
+
+
+                        
+
+                        <div class="col-lg-2 col-md-2 border-right">
+                            
+                            <span class="col-lg-12 custm-row2col3">1756</span>
+
+                             
+
+                        </div>
+                                               
+
+
+
+                        
+                    </div>
+                </div>
+
+
+                
+
+
+                <div class="col-lg-1 col-md-1">
+                    <div class="row custm-row2lastcol text-center">
+                        <div class="col-lg-12 col-md-12 custm-fontsizfordate"><span></span>01<sup>th</sup></div>
+                        <div class="col-lg-12 col-md-12 custm-fontsizformonth"><span></span>APR - 2016</div>
+                    </div>
+                </div>
+
+
+
+                
+            </div>        
+
+            <!--APPOINTMENT ROW ENDS-->
+         
+        </div>
+        <div style="z-index: 104; left: 9px; width:99%;  height: 40px; text-align: center; background-color: #CCCCCC; layer-background-color: #CCCCCC; border: 1px none #000000;">
+            <p style="text-align:center;padding-top:10px;font-size:12px;">
+                <span style="font-family: Tahoma; color: #000000;"  >
+                    © Disclaimer | Version:1.0.21 | Developed by National Informatics Centre                                
+                </span>
+        </div>  
+      
+
+    </body>
+
+</html>

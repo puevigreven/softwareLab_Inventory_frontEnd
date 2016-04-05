@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'kruti_dev_010regular';
+    src: url('kruti_dev_010-webfont.eot');
+    src: url('kruti_dev_010-webfont.eot?#iefix') format('embedded-opentype'),
+         url('kruti_dev_010-webfont.woff2') format('woff2'),
+         url('kruti_dev_010-webfont.woff') format('woff'),
+         url('kruti_dev_010-webfont.ttf') format('truetype'),
+         url('kruti_dev_010-webfont.svg#kruti_dev_010regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'source_sans_probold';
+    src: url('sourcesanspro-bold-webfont.eot');
+    src: url('sourcesanspro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sourcesanspro-bold-webfont.woff2') format('woff2'),
+         url('sourcesanspro-bold-webfont.woff') format('woff'),
+         url('sourcesanspro-bold-webfont.ttf') format('truetype'),
+         url('sourcesanspro-bold-webfont.svg#source_sans_probold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'source_sans_probold_italic';
+    src: url('sourcesanspro-boldit-webfont.eot');
+    src: url('sourcesanspro-boldit-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sourcesanspro-boldit-webfont.woff2') format('woff2'),
+         url('sourcesanspro-boldit-webfont.woff') format('woff'),
+         url('sourcesanspro-boldit-webfont.ttf') format('truetype'),
+         url('sourcesanspro-boldit-webfont.svg#source_sans_probold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'source_sans_proitalic';
+    src: url('sourcesanspro-it-webfont.eot');
+    src: url('sourcesanspro-it-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sourcesanspro-it-webfont.woff2') format('woff2'),
+         url('sourcesanspro-it-webfont.woff') format('woff'),
+         url('sourcesanspro-it-webfont.ttf') format('truetype'),
+         url('sourcesanspro-it-webfont.svg#source_sans_proitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'source_sans_proregular';
+    src: url('sourcesanspro-regular-webfont.eot');
+    src: url('sourcesanspro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sourcesanspro-regular-webfont.woff2') format('woff2'),
+         url('sourcesanspro-regular-webfont.woff') format('woff'),
+         url('sourcesanspro-regular-webfont.ttf') format('truetype'),
+         url('sourcesanspro-regular-webfont.svg#source_sans_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewaymedium';
+    src: url('raleway-medium-webfont.eot');
+    src: url('raleway-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('raleway-medium-webfont.woff2') format('woff2'),
+         url('raleway-medium-webfont.woff') format('woff'),
+         url('raleway-medium-webfont.ttf') format('truetype'),
+         url('raleway-medium-webfont.svg#ralewaymedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ralewaymedium_italic';
+    src: url('raleway-medium-italic-webfont.eot');
+    src: url('raleway-medium-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('raleway-medium-italic-webfont.woff2') format('woff2'),
+         url('raleway-medium-italic-webfont.woff') format('woff'),
+         url('raleway-medium-italic-webfont.ttf') format('truetype'),
+         url('raleway-medium-italic-webfont.svg#ralewaymedium_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('raleway-regular-webfont.eot');
+    src: url('raleway-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('raleway-regular-webfont.woff2') format('woff2'),
+         url('raleway-regular-webfont.woff') format('woff'),
+         url('raleway-regular-webfont.ttf') format('truetype'),
+         url('raleway-regular-webfont.svg#ralewayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ralewayitalic';
+    src: url('raleway-regular-italic-webfont.eot');
+    src: url('raleway-regular-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('raleway-regular-italic-webfont.woff2') format('woff2'),
+         url('raleway-regular-italic-webfont.woff') format('woff'),
+         url('raleway-regular-italic-webfont.ttf') format('truetype'),
+         url('raleway-regular-italic-webfont.svg#ralewayitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ralewaysemibold';
+    src: url('raleway-semibold-webfont.eot');
+    src: url('raleway-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('raleway-semibold-webfont.woff2') format('woff2'),
+         url('raleway-semibold-webfont.woff') format('woff'),
+         url('raleway-semibold-webfont.ttf') format('truetype'),
+         url('raleway-semibold-webfont.svg#ralewaysemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ralewaysemibold_italic';
+    src: url('raleway-semibold-italic-webfont.eot');
+    src: url('raleway-semibold-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('raleway-semibold-italic-webfont.woff2') format('woff2'),
+         url('raleway-semibold-italic-webfont.woff') format('woff'),
+         url('raleway-semibold-italic-webfont.ttf') format('truetype'),
+         url('raleway-semibold-italic-webfont.svg#ralewaysemibold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'rupee_foradianregular';
+    src: url('rupee_foradian-webfont.eot');
+    src: url('rupee_foradian-webfont.eot?#iefix') format('embedded-opentype'),
+         url('rupee_foradian-webfont.woff2') format('woff2'),
+         url('rupee_foradian-webfont.woff') format('woff'),
+         url('rupee_foradian-webfont.ttf') format('truetype'),
+         url('rupee_foradian-webfont.svg#rupee_foradianregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

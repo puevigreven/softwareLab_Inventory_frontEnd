@@ -1,0 +1,6 @@
+{% for medicine in medicines %}
+<li>
+	<a href="/inventory/get_med/{{medicine.medicine_name}}">{{medicine.medicine_name}}</a>
+</li>
+{% endfor %}
+

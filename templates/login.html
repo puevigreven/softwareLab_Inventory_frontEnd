@@ -1,0 +1,76 @@
+{% extends "base3.html" %}
+
+{% block content %}
+
+{% if form.errors %}
+<p class="error">Sorry !</p>
+{% endif %}
+<section id="container">
+                <div class="wrap-container clearfix">
+                    <div class="zerogrid">
+                    <br>
+                    <br>
+
+
+<form action="/accounts/auth/" method="post">{% csrf_token %}
+
+<!--div class="jumbotron"!-->
+<div class="container">
+<div class="row">
+<!--div class="col-lg-4"></div!-->
+<div class="col-lg-4">
+<div class="form-group">
+
+      <label for="username">UserName :</label>
+      <input type="text" class="form-control" id="username" name="username" placeholder="Enter Name">
+      <br><br>
+ 
+<label for="password">Password : </label>
+<!--input type="password" name="password" value="" id="password"!-->
+<input type="password" class="form-control" id="password" name="password" placeholder="Enter password">
+<br><br>
+
+<div class="checkbox">
+      <label><input type="checkbox"> Remember me</label>
+    </div>
+<fieldset id="group1">
+	<input type="radio" value="Patient" name="group1" checked="checked">Patient</input>
+	<input type="radio" value="Doctor" name="group1">Doctor</input>
+	<input type="radio" value="Pharmacist" name="group1">Pharmacist</input>
+	<input type="radio" value="Employee" name="group1">Employee</input>
+</fieldset>
+<br><br>
+<div class="col-xs-6 col-md-3">
+<p><input  class="btn btn-primary btn-lg"  type="submit"  value="Login"></p>
+
+</div>
+<div class="col-xs-6 col-md-3  col-md-offset-1 col-sm-offset-1">
+<p><a class="btn btn-primary btn-lg" href="http://127.0.0.1:8000/accounts/register/" role="button">Register</a></p>
+
+</div>
+</div>
+</div>
+</form>
+ <div  class="col-lg-8">
+                            <div class="wrap-sidebar">
+                                
+                                <div class="widget wid-about">
+                                    <div class="wid-header">
+                                        <h5>About Us</h5>
+                                    </div>
+                                    <div class="wid-content">
+                                        <img height="50px" width="800px" src="/static/images/image_patna.jpg"/>
+                                        <p style="font-size:10px">The Indian Institute of Technology Patna (abbreviated IIT Patna or IITP) is an autonomous institute of education and research in science, engineering and technology located in Patna, India.[2] It is recognized as an Institute of National Importance by the Government of India.[3] IIT Patna is part of National Knowledge Network (NKN) which provides a high speed core networking for all the knowledge related institutions in India to integrate seamlessly all of the scientific community of India.[4]</p>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+
+</div></div></div></div>
+</section>
+
+
+{% endblock %}

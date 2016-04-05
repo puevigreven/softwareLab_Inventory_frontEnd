@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block sidebar %}
+		<ul>
+		<li><a href="/appointments/all">Patients</a></li>
+		</ul>
+		{% endblock %}
+
+
+{% block content %}
+
+<h1>{{appointment.NameOfDoctor}}</h1>
+<p>{{appointment.DateOfBirth}}</p>
+<p>{{appointment.Contact}}</p>
+<p>{{appointment.PatientId}}</p>
+</body>
+</html>
+
+{% endblock %}
+
+
+

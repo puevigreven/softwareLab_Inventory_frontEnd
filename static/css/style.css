@@ -1,0 +1,38 @@
+.no-margin
+{
+	margin:0px;
+}
+.no-padding
+{
+	padding: 0px;
+}
+
+.navbar{
+  background:#598cdf;  
+  color: white;
+  line-height: 35px;
+}
+
+ul.nav li a, ul.nav li a:visited {
+    color:#FF0000;
+}
+
+ul.nav li a:hover, ul.nav li a:active {
+    color:#FF0000;
+}
+
+ul.nav li.active a {
+    color:#FF0000;
+    }
+
+    .nicecolor {
+      color:red;
+     }
+
+     .nicecolor:hover {
+      color:blue;
+     }
+
+     .h1{
+    text-shadow: 2px 2px #FF0000;
+}
