@@ -12,6 +12,8 @@ from practitioner.models import Practitioner
 from django.http import HttpResponseRedirect
 from django.core.context_processors import csrf
 from django.template import RequestContext
+import datetime
+from employee.models import Employee
 
 # Create your views here.
 
@@ -33,9 +35,13 @@ def appointment(request, doctor_id=1):
 
 
 def patient(request, doctor_id=1 , patient_id=1):
-	return render_to_response('patient.html', 
-		{'patient': Patient.objects.get(id = patient_id), 'practitioner': Practitioner.objects.get(id = doctor_id)})
-
+	temp = Patient.objects.get(id = patient_id)
+	args = {}
+	args['patient'] = Patient.objects.get(id = patient_id)
+	args['practitioner'] = Practitioner.objects.get(id = doctor_id)
+	new_temp = temp.Patient_ID
+	args['dates'] = Employee.objects.filter(Patient_ID = new_temp)
+	return render_to_response('patient.html', args)
 
 def create(request, doctor_id=1):
 	if request.POST:
@@ -61,10 +67,24 @@ def create(request, doctor_id=1):
 
 def search(request, doctor_id=1):
 	if request.POST:
-		if request.POST['pid'] is not None:
+		patients = Patient.objects.all()
+		if request.POST['pid'] !='':
 			patients = Patient.objects.filter(Patient_ID__icontains = request.POST['pid'])
-		if request.POST['hist'] is not None:
+		if request.POST['hist'] !='':
 			patients = patients.filter(Patient_History__icontains = request.POST['hist'])
+		if request.POST['age'] !='':
+			year = datetime.date.today().year
+			month = datetime.date.today().month
+			day = datetime.date.today().day
+			temp = int(year) - int(request.POST['age'])
+			for patient in patients:
+				print patient.Patient_ID+"\n"
+				user = User.objects.get(username = patient.Patient_ID)
+				search_date = datetime.datetime.strptime(str(temp)+"/"+str(month)+"/"+str(day), "%Y/%m/%d").date()
+				print str(search_date)+"\t"+str(user.date_joined.date())+"\n" 
+				if user.date_joined.date() < search_date:
+					patients = patients.exclude(Patient_ID = patient.Patient_ID)
+
 		return render_to_response('search_list.html', {'patients':patients, 'doctor': doctor_id })
 
 	return render_to_response('search.html', {'doctor':doctor_id}, context_instance=RequestContext(request))

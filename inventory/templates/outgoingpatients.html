@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block sidebar %}
+
+<ul>
+	<li><a href="/inventory">Home</a></li>
+</ul>
+
+
+{% endblock %}
+
+
+{% block content %}
+<html>
+<body>
+<h1>Patients</h1>
+{% for patient in patients %}
+<div>
+<h2> <a href="/inventory/get_patients/{{patient.id}}">{{patient.Patient_ID}}</a></h2>
+</div>
+{% endfor %}
+</body>
+</html>
+{% endblock %}

@@ -28,7 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 TEMPLATE_DIRS =(
-    '/home/rishabh/hospital/templates',
+    '/Users/puevigreven/softwareLab/virtual_env/final/hospital/templates',
 )
 
 # Application definition
@@ -64,8 +64,8 @@ ROOT_URLCONF = 'hospital.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['/home/rishabh/hospital/templates',
-                  '/home/rishabh/hospital/doctor/templates', 
+        'DIRS': ['/Users/puevigreven/softwareLab/virtual_env/final/hospital/templates',
+                  '/Users/puevigreven/softwareLab/virtual_env/final/hospital/doctor/templates',
                   os.path.join(BASE_DIR,'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -126,7 +126,7 @@ USE_L10N = True
 
 USE_TZ = True
 
-MEDIA_ROOT = '/home/rishabh/hospital/static/'
+MEDIA_ROOT = '/Users/puevigreven/softwareLab/virtual_env/final/hospital/static/'
 
 MEDIA_URL = ''
 
@@ -138,6 +138,9 @@ STATIC_ROOT = ''
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
-     os.path.join(BASE_DIR, "static"),
-    '/home/rishabh/hospital/static',
-    ]    
+    os.path.join(BASE_DIR, "static"),
+
+    '/Users/puevigreven/softwareLab/virtual_env/final/hospital/static/js',
+    '/Users/puevigreven/softwareLab/virtual_env/final/hospital/static/css',
+
+]    

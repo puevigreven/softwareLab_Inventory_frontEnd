@@ -1,25 +1,76 @@
-{% extends "base.html" %}
+{% extends "base3.html" %}
 
 {% block sidebar %}
-<ul>
-<li><a href="/doctor/{{doctor}}/all">Patients</a></li>
-<li><a href="/doctor/{{doctor}}/create">Add new patient</a></li>
-<li><a href="/doctor/{{doctor}}/search">Search patient</a></li>
-<li><a href="/doctor/{{doctor}}/appointment">View Appointments</a></li>
-<li><a href="/accounts/login">Logout</a></li>
 
-</ul>
+
+
 {% endblock %}
 
 {% block content %}
+<section id="container">
+<div class="container">
+<div class="row">
+<div class="wrap-container clearfix">
+                    <div class="zerogrid">
+                    <br>
+  <div class="col-md-4  sidebar">
+  <div class="panel-group">
+    <div class="panel panel-info">
+      <div class="panel-heading"><a href="/doctor/{{doctor}}/all">Patients</a></div>
+    </div>
 
-<h1><u>List of patients</h1></u>
-{% for patient in patients %}
-<div>
-<h2><a href="/doctor/{{doctor}}/get/{{ patient.id }}">{{ patient.Patient_ID }}</a></h2>
-<p>{{ patient.Patient_History }}</p>
+    <div class="panel panel-info">
+      <div class="panel-heading"><a href="/doctor/{{doctor}}/create">Add new Patient</a></div>
+    </div>
+
+    <div class="panel panel-info">
+      <div class="panel-heading"><a href="/doctor/{{doctor}}/search">Search Patient</a></div>
+    </div>
+
+    <div class="panel panel-info">
+      <div class="panel-heading"><a href="/doctor/{{doctor}}/appointment">View Appointments</a></div>
+    </div>
+
+<div class="panel panel-info">
+      <div class="panel-heading"><a href="/accounts/logout">Logout</a></div>
+    </div>
+
 </div>
+</div>
+<div class="col-md-8">
+<div class="jumbotron">
+<h2 class="sub-header">List of patients</h2>
+<div class="table-responsive">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>Patient_ID</th>
+                  <th>History</th>
+                   <th></th>
+                  <th></th>
+                  <th></th>
+                </tr>
+                </thead>
+                <tbody>
+                
+{% for patient in patients %}
+<tr>
+                  <td><a href="/doctor/{{doctor}}/get/{{ patient.id }}">{{ patient.Patient_ID }}</a></td>
+                  <td>{{ patient.Patient_History }}</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  </tr>
 {% endfor %}
-
+ </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
 
 {% endblock %}

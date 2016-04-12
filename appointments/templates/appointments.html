@@ -1,24 +1,72 @@
-{% extends "base.html" %}
+{% extends "base3.html" %}
 
 {% block sidebar %}
-<ul>
-<li><a href="/accounts/loggedin/{{userid}}/">Back</a></li>
-</ul>
+
 {% endblock %}
 
 {% block content %}
- 
-<h1><u>List of appointments</h1></u>
-{% for rp in RequiredPatient %}
-<div>
 
-<p>{{rp.NameOfDoctor}}</p>
-<p>{{rp.DateOfBirth}}</p>
-<p>{{rp.Contact}}</p>
-<p>{{rp.PatientId}}</p>
-</div>
-<br>
+
+<section id="container">
+ <div class="container">
+  <div class="row">
+                <div class="wrap-container clearfix">
+                    <div class="zerogrid">
+                    <br>
+                    <br>
+
+ 		<div class="col-lg-3">
+
+
+	
+    <ul class="btn btn-danger">
+    	<li ><a href="/accounts/loggedin/{{userid}}" >Back</a></li>
+   </div>
+
+<div class="col-lg-6">
+<div class="jumbotron">
+ <h2 class="sub-header">List of patients</h2>
+<div class="table-responsive">
+<table class="table table-striped">
+<thead>
+      <tr>
+        <th id="NameOfDoctor">Name Of Doctor</th>
+        <th id="DateOfBirth">Date Of Birth</th>
+        <th id="Contact">Contact</th>
+        <th id="PatientId">Patient Id</th>
+      </tr>
+    </thead>
+
+    
+    <tbody>
+{% for rp in RequiredPatient %}
+
+      <tr>
+        <td id="NameOfDoctor"><p>{{rp.NameOfDoctor}}</p></td>
+        <td id="DateOfBirth"><p>{{rp.DateOfBirth}}</p></td>
+        <td id="Contact"><p>{{rp.Contact}}</p></td>
+        <td id="PatientId"><p>{{rp.PatientId}}</p></td>
+      </tr>
+
+
+
+
+
+
+
 {% endfor %}
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
 
 
 {% endblock %}

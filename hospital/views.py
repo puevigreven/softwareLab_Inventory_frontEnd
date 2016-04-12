@@ -48,8 +48,9 @@ def loggedin(request, patient_id = 1):
 	user = User.objects.get(id = patient_id)
 	args = {}
 	args['full_name'] = user.first_name
-        args['username'] = user.username
-        args['userid'] = user.id
+ 	args['username'] = user.username
+	args['userid'] = user.id
+	args['date_joined'] = user.date_joined.date    
 	return render_to_response('loggedin.html', args)
 
 def invalid_login(request):

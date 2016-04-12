@@ -13,6 +13,7 @@ class Patient(models.Model):
 	Patient_History = models.TextField()
 	Credential = models.FileField(upload_to = get_upload_file_name)
 	Doctor_Visited_Id = models.TextField(max_length=254)
+	Issued = models.BooleanField(default = False)
     
 
 	def __unicode__(self):

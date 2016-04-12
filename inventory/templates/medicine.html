@@ -15,9 +15,11 @@
 <p> EXPIRY DATE:{{ medicine.expiry_date }} </p>
 <p> QUANTITY REMAINING: {{medicine.quantity}} </p>
 <p> PRICE: {{medicine.price}} </p>
-<p> refill: {{medicine.refill}} </p>
+<p> batch number: {{medicine.batch_number}} </p>
 
-<li><a href="/inventory/issueMedicines/{{medicine.medicine_name}}">Issue Medicine</a></h2></li>
+
+
+<li><a href="/inventory/issueMedicines/{{medicine.batch_number}}">Issue Medicine</a></h2></li>
 
 </body>
 </html>

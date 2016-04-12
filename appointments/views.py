@@ -9,6 +9,7 @@ from django.contrib.auth.models import User
 from forms import AppointmentForm
 from django.http import HttpResponseRedirect
 from django.core.context_processors import csrf
+from employee.models import Schedule
 
 def appointments(request,patient_id=1):
 	args = {}
@@ -18,6 +19,13 @@ def appointments(request,patient_id=1):
 	args['RequiredPatient'] = Appointment.objects.filter(PatientId = temp.username)
 	return render_to_response('appointments.html',
 		args )
+
+
+def calendar(request):
+	args = {}
+	args.update(csrf(request))
+	args['schedule'] = Schedule.objects.all().last()
+	return render_to_response('timetable.html',args)
 
 def appointment(request, appointment_id=1):
 	return render_to_response('appointment.html', 

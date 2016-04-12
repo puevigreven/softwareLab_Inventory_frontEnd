@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block sidebar %}
+
+<li><a href="/inventory/all_med">View All Medicines</a></li>
+<li><a href="/inventory/create">Add Medicines</a></h2></li>
+<li><a href="/inventory/outGoingPatients">Out Going Patients</a></h2></li>
+
+{% endblock %}
+
+{% block content %}
+
+<html>
+<body>
+<h1>{{patient.Patient_ID}}</h1>
+<p>{{patient.Patient_History}}</p>
+
+{% if patient.Credential %}
+<p><img src="/static/{{patient.Credential}}" width="200" /></p>
+{% endif %}
+
+<li><a href="/inventory/issueMedicinestoPatient/{{patient.id}}">Issue Medicine</a></h2></li>
+
+<h3>Search Medicines</h3>
+{% csrf_token %}
+<input type="text" id="search" name="search"/>
+<ul id="search-results">
+</ul>
+
+{% for med in arr %}
+<div>
+<p>  {{med}} </p>
+
+</div>
+{% endfor %}
+
+
+</body>
+</html>
+{% endblock %}

@@ -1,0 +1,1038 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0986e938-8369-46ba-87fd-dda7b30d437e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/puevigreven.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inventory/templates/get_medicine_to_issue.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inventory/templates/issue_to_patient.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inventory/templates/base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/jquery-2.0.0.min.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/2015 (E.S.).pdf" afterPath="$PROJECT_DIR$/static/images/2015 (E.S.).pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/Hospital.jpg" afterPath="$PROJECT_DIR$/static/images/Hospital.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/Hospital1.jpg" afterPath="$PROJECT_DIR$/static/images/Hospital1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/iit-campus-bihta5.jpg" afterPath="$PROJECT_DIR$/static/images/iit-campus-bihta5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/image1.png" afterPath="$PROJECT_DIR$/static/images/image1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/image2.png" afterPath="$PROJECT_DIR$/static/images/image2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/image3.png" afterPath="$PROJECT_DIR$/static/images/image3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/image4.png" afterPath="$PROJECT_DIR$/static/images/image4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/image5.png" afterPath="$PROJECT_DIR$/static/images/image5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/image_patna.jpg" afterPath="$PROJECT_DIR$/static/images/image_patna.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/user.jpg" afterPath="$PROJECT_DIR$/static/images/user.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/uploaded_files/1457363590_32_user.jpg" afterPath="$PROJECT_DIR$/static/uploaded_files/1457363590_32_user.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/uploaded_files/1457537249_68_Screenshot_from_2016-02-25_030414.png" afterPath="$PROJECT_DIR$/static/uploaded_files/1457537249_68_Screenshot_from_2016-02-25_030414.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/uploaded_files/1457538776_15_Screenshot_from_2016-02-29_225653.png" afterPath="$PROJECT_DIR$/static/uploaded_files/1457538776_15_Screenshot_from_2016-02-29_225653.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/uploaded_files/1457609355_84_Screenshot_from_2016-03-07_224311.png" afterPath="$PROJECT_DIR$/static/uploaded_files/1457609355_84_Screenshot_from_2016-03-07_224311.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/uploaded_files/1457609475_27_Screenshot_from_2016-02-25_030414.png" afterPath="$PROJECT_DIR$/static/uploaded_files/1457609475_27_Screenshot_from_2016-02-25_030414.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/uploaded_files/1458160261_44_Screenshot_from_2016-02-26_033551.png" afterPath="$PROJECT_DIR$/static/uploaded_files/1458160261_44_Screenshot_from_2016-02-26_033551.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/uploaded_files/1458164309_3_Screenshot_from_2016-03-07_224410.png" afterPath="$PROJECT_DIR$/static/uploaded_files/1458164309_3_Screenshot_from_2016-03-07_224410.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/uploaded_files/1458164600_14_Screenshot_from_2016-03-07_224410.png" afterPath="$PROJECT_DIR$/static/uploaded_files/1458164600_14_Screenshot_from_2016-03-07_224410.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/uploaded_files/1458166846_1_Screenshot_from_2016-03-07_224410.png" afterPath="$PROJECT_DIR$/static/uploaded_files/1458166846_1_Screenshot_from_2016-03-07_224410.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/uploaded_files/1458167130_91_Screenshot_from_2016-03-07_224410.png" afterPath="$PROJECT_DIR$/static/uploaded_files/1458167130_91_Screenshot_from_2016-03-07_224410.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/uploaded_files/1458167155_78_Screenshot_from_2016-03-07_224410.png" afterPath="$PROJECT_DIR$/static/uploaded_files/1458167155_78_Screenshot_from_2016-03-07_224410.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/uploaded_files/1458167174_37_Screenshot_from_2016-03-07_224410.png" afterPath="$PROJECT_DIR$/static/uploaded_files/1458167174_37_Screenshot_from_2016-03-07_224410.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/uploaded_files/1458204451_72_Screenshot_from_2016-02-26_033550.png" afterPath="$PROJECT_DIR$/static/uploaded_files/1458204451_72_Screenshot_from_2016-02-26_033550.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/uploaded_files/1458204546_35_Screenshot_from_2016-03-07_224302.png" afterPath="$PROJECT_DIR$/static/uploaded_files/1458204546_35_Screenshot_from_2016-03-07_224302.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/uploaded_files/1458205260_77_Screenshot_from_2016-02-26_033551.png" afterPath="$PROJECT_DIR$/static/uploaded_files/1458205260_77_Screenshot_from_2016-02-26_033551.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/uploaded_files/1458206624_86_Screenshot_from_2016-02-25_030414.png" afterPath="$PROJECT_DIR$/static/uploaded_files/1458206624_86_Screenshot_from_2016-02-25_030414.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/uploaded_files/1459420467_46_Screenshot_from_2016-03-09_231956.png" afterPath="$PROJECT_DIR$/static/uploaded_files/1459420467_46_Screenshot_from_2016-03-09_231956.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/uploaded_files/1459797221_26_Screenshot_from_2016-03-28_195105.png" afterPath="$PROJECT_DIR$/static/uploaded_files/1459797221_26_Screenshot_from_2016-03-28_195105.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/uploaded_files/1459797492_52_Screenshot_from_2016-03-07_224323.png" afterPath="$PROJECT_DIR$/static/uploaded_files/1459797492_52_Screenshot_from_2016-03-07_224323.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/uploaded_files/1459803991_76_Screenshot_from_2016-03-28_195415.png" afterPath="$PROJECT_DIR$/static/uploaded_files/1459803991_76_Screenshot_from_2016-03-28_195415.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/Hospital.jpg" afterPath="$PROJECT_DIR$/templates/Hospital.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appointments/__init__.py" afterPath="$PROJECT_DIR$/appointments/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appointments/admin.py" afterPath="$PROJECT_DIR$/appointments/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appointments/apps.py" afterPath="$PROJECT_DIR$/appointments/apps.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appointments/forms.py" afterPath="$PROJECT_DIR$/appointments/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appointments/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/appointments/migrations/0001_initial.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appointments/migrations/0002_auto_20160307_1425.py" afterPath="$PROJECT_DIR$/appointments/migrations/0002_auto_20160307_1425.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appointments/migrations/0003_auto_20160309_2027.py" afterPath="$PROJECT_DIR$/appointments/migrations/0003_auto_20160309_2027.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appointments/migrations/0004_auto_20160310_0812.py" afterPath="$PROJECT_DIR$/appointments/migrations/0004_auto_20160310_0812.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appointments/migrations/0005_auto_20160331_0821.py" afterPath="$PROJECT_DIR$/appointments/migrations/0005_auto_20160331_0821.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appointments/migrations/__init__.py" afterPath="$PROJECT_DIR$/appointments/migrations/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appointments/models.py" afterPath="$PROJECT_DIR$/appointments/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appointments/templates/appointment.html" afterPath="$PROJECT_DIR$/appointments/templates/appointment.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appointments/templates/appointments.html" afterPath="$PROJECT_DIR$/appointments/templates/appointments.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appointments/templates/create_appointment.html" afterPath="$PROJECT_DIR$/appointments/templates/create_appointment.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appointments/tests.py" afterPath="$PROJECT_DIR$/appointments/tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appointments/urls.py" afterPath="$PROJECT_DIR$/appointments/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appointments/views.py" afterPath="$PROJECT_DIR$/appointments/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/counter.txt" afterPath="$PROJECT_DIR$/counter.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doctor/__init__.py" afterPath="$PROJECT_DIR$/doctor/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doctor/admin.py" afterPath="$PROJECT_DIR$/doctor/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doctor/apps.py" afterPath="$PROJECT_DIR$/doctor/apps.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doctor/forms.py" afterPath="$PROJECT_DIR$/doctor/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doctor/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/doctor/migrations/0001_initial.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doctor/migrations/0002_patient_doctor_visited_id.py" afterPath="$PROJECT_DIR$/doctor/migrations/0002_patient_doctor_visited_id.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doctor/migrations/0003_patient_userid.py" afterPath="$PROJECT_DIR$/doctor/migrations/0003_patient_userid.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doctor/migrations/0004_remove_patient_userid.py" afterPath="$PROJECT_DIR$/doctor/migrations/0004_remove_patient_userid.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doctor/migrations/__init__.py" afterPath="$PROJECT_DIR$/doctor/migrations/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doctor/models.py" afterPath="$PROJECT_DIR$/doctor/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doctor/templates/create_patient.html" afterPath="$PROJECT_DIR$/doctor/templates/create_patient.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doctor/templates/patient.html" afterPath="$PROJECT_DIR$/doctor/templates/patient.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doctor/templates/patients.html" afterPath="$PROJECT_DIR$/doctor/templates/patients.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doctor/templates/search.html" afterPath="$PROJECT_DIR$/doctor/templates/search.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doctor/tests.py" afterPath="$PROJECT_DIR$/doctor/tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doctor/urls.py" afterPath="$PROJECT_DIR$/doctor/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doctor/views.py" afterPath="$PROJECT_DIR$/doctor/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/employee/__init__.py" afterPath="$PROJECT_DIR$/employee/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/employee/admin.py" afterPath="$PROJECT_DIR$/employee/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/employee/apps.py" afterPath="$PROJECT_DIR$/employee/apps.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/employee/forms.py" afterPath="$PROJECT_DIR$/employee/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/employee/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/employee/migrations/0001_initial.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/employee/migrations/0002_auto_20160404_1813.py" afterPath="$PROJECT_DIR$/employee/migrations/0002_auto_20160404_1813.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/employee/migrations/0003_employee_employee_id.py" afterPath="$PROJECT_DIR$/employee/migrations/0003_employee_employee_id.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/employee/migrations/0004_employee_description.py" afterPath="$PROJECT_DIR$/employee/migrations/0004_employee_description.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/employee/migrations/__init__.py" afterPath="$PROJECT_DIR$/employee/migrations/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/employee/models.py" afterPath="$PROJECT_DIR$/employee/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/employee/templates/update.html" afterPath="$PROJECT_DIR$/employee/templates/update.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/employee/templates/update_done.html" afterPath="$PROJECT_DIR$/employee/templates/update_done.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/employee/tests.py" afterPath="$PROJECT_DIR$/employee/tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/employee/urls.py" afterPath="$PROJECT_DIR$/employee/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/employee/views.py" afterPath="$PROJECT_DIR$/employee/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hospital/__init__.py" afterPath="$PROJECT_DIR$/hospital/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hospital/forms.py" afterPath="$PROJECT_DIR$/hospital/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hospital/settings.py" afterPath="$PROJECT_DIR$/hospital/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hospital/urls.py" afterPath="$PROJECT_DIR$/hospital/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hospital/views.py" afterPath="$PROJECT_DIR$/hospital/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hospital/wsgi.py" afterPath="$PROJECT_DIR$/hospital/wsgi.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/__init__.py" afterPath="$PROJECT_DIR$/inventory/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/admin.py" afterPath="$PROJECT_DIR$/inventory/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/apps.py" afterPath="$PROJECT_DIR$/inventory/apps.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/forms.py" afterPath="$PROJECT_DIR$/inventory/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/inventory/migrations/0001_initial.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/migrations/0002_medicines_expiry_date.py" afterPath="$PROJECT_DIR$/inventory/migrations/0002_medicines_expiry_date.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/migrations/0003_medicines_price.py" afterPath="$PROJECT_DIR$/inventory/migrations/0003_medicines_price.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/migrations/0004_medicines_quantity.py" afterPath="$PROJECT_DIR$/inventory/migrations/0004_medicines_quantity.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/migrations/0005_medicines_refill.py" afterPath="$PROJECT_DIR$/inventory/migrations/0005_medicines_refill.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/migrations/0006_auto_20160403_1030.py" afterPath="$PROJECT_DIR$/inventory/migrations/0006_auto_20160403_1030.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/migrations/__init__.py" afterPath="$PROJECT_DIR$/inventory/migrations/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/models.py" afterPath="$PROJECT_DIR$/inventory/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/templates/ajax_search.html" afterPath="$PROJECT_DIR$/inventory/templates/ajax_search.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/templates/all_medicines.html" afterPath="$PROJECT_DIR$/inventory/templates/all_medicines.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/templates/create_medicine.html" afterPath="$PROJECT_DIR$/inventory/templates/create_medicine.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/templates/home.html" afterPath="$PROJECT_DIR$/inventory/templates/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/templates/issue.html" afterPath="$PROJECT_DIR$/inventory/templates/issue.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/templates/issue_medicine.html" afterPath="$PROJECT_DIR$/inventory/templates/issue_medicine.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/templates/medicine.html" afterPath="$PROJECT_DIR$/inventory/templates/medicine.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/templates/refillMedicines.html" afterPath="$PROJECT_DIR$/inventory/templates/refillMedicines.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/tests.py" afterPath="$PROJECT_DIR$/inventory/tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/urls.py" afterPath="$PROJECT_DIR$/inventory/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/views.py" afterPath="$PROJECT_DIR$/inventory/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pharmacist/__init__.py" afterPath="$PROJECT_DIR$/pharmacist/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pharmacist/admin.py" afterPath="$PROJECT_DIR$/pharmacist/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pharmacist/apps.py" afterPath="$PROJECT_DIR$/pharmacist/apps.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pharmacist/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/pharmacist/migrations/0001_initial.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pharmacist/migrations/0002_auto_20160404_1646.py" afterPath="$PROJECT_DIR$/pharmacist/migrations/0002_auto_20160404_1646.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pharmacist/migrations/__init__.py" afterPath="$PROJECT_DIR$/pharmacist/migrations/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pharmacist/models.py" afterPath="$PROJECT_DIR$/pharmacist/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pharmacist/tests.py" afterPath="$PROJECT_DIR$/pharmacist/tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pharmacist/urls.py" afterPath="$PROJECT_DIR$/pharmacist/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pharmacist/views.py" afterPath="$PROJECT_DIR$/pharmacist/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/practitioner/__init__.py" afterPath="$PROJECT_DIR$/practitioner/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/practitioner/admin.py" afterPath="$PROJECT_DIR$/practitioner/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/practitioner/apps.py" afterPath="$PROJECT_DIR$/practitioner/apps.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/practitioner/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/practitioner/migrations/0001_initial.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/practitioner/migrations/0002_auto_20160310_0940.py" afterPath="$PROJECT_DIR$/practitioner/migrations/0002_auto_20160310_0940.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/practitioner/migrations/__init__.py" afterPath="$PROJECT_DIR$/practitioner/migrations/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/practitioner/models.py" afterPath="$PROJECT_DIR$/practitioner/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/practitioner/tests.py" afterPath="$PROJECT_DIR$/practitioner/tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/practitioner/urls.py" afterPath="$PROJECT_DIR$/practitioner/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/practitioner/views.py" afterPath="$PROJECT_DIR$/practitioner/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/static/css/bootstrap-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/static/css/bootstrap-theme.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/static/css/bootstrap-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/bootstrap-theme.min.css.map" afterPath="$PROJECT_DIR$/static/css/bootstrap-theme.min.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/bootstrap.css" afterPath="$PROJECT_DIR$/static/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/static/css/bootstrap.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/bootstrap.min.css.map" afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/default.css" afterPath="$PROJECT_DIR$/static/css/default.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/static/css/font-awesome.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/fonts/stylesheet.css" afterPath="$PROJECT_DIR$/static/css/fonts/stylesheet.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/hpp-ui-theme.css" afterPath="$PROJECT_DIR$/static/css/hpp-ui-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/hpp-ui.min.css" afterPath="$PROJECT_DIR$/static/css/hpp-ui.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/masterCss.css" afterPath="$PROJECT_DIR$/static/css/masterCss.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/menu.css" afterPath="$PROJECT_DIR$/static/css/menu.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/portal.css" afterPath="$PROJECT_DIR$/static/css/portal.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/responsive.css" afterPath="$PROJECT_DIR$/static/css/responsive.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/skel.css" afterPath="$PROJECT_DIR$/static/css/skel.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/style.css" afterPath="$PROJECT_DIR$/static/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/style1.css" afterPath="$PROJECT_DIR$/static/css/style1.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/style2.css" afterPath="$PROJECT_DIR$/static/css/style2.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/zerogrid.css" afterPath="$PROJECT_DIR$/static/css/zerogrid.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base2.html" afterPath="$PROJECT_DIR$/templates/base2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base3.html" afterPath="$PROJECT_DIR$/templates/base3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base4.html" afterPath="$PROJECT_DIR$/templates/base4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base5.html" afterPath="$PROJECT_DIR$/templates/base5.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/hello.html" afterPath="$PROJECT_DIR$/templates/hello.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/invalid_login.html" afterPath="$PROJECT_DIR$/templates/invalid_login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/loggedin.html" afterPath="$PROJECT_DIR$/templates/loggedin.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/login.html" afterPath="$PROJECT_DIR$/templates/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/logout.html" afterPath="$PROJECT_DIR$/templates/logout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/register.html" afterPath="$PROJECT_DIR$/templates/register.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/register_success.html" afterPath="$PROJECT_DIR$/templates/register_success.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/search_list.html" afterPath="$PROJECT_DIR$/templates/search_list.html" />
+    </list>
+    <ignored path="hospital.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="hospital" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inventory/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="33" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="outgoingpatients.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inventory/templates/outgoingpatients.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="22" column="7" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/inventory/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4145">
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="issue_medicine.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inventory/templates/issue_medicine.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="get_medicine_to_issue.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inventory/templates/get_medicine_to_issue.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="medicine.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inventory/templates/medicine.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ajax_search.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inventory/templates/ajax_search.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ajax.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/js/ajax.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="allPatients.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inventory/templates/allPatients.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="all_medicines.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inventory/templates/all_medicines.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="558">
+              <caret line="31" column="12" selection-start-line="25" selection-start-column="0" selection-end-line="31" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/hospital/settings.py" />
+        <option value="$PROJECT_DIR$/hospital/urls.py" />
+        <option value="$PROJECT_DIR$/inventory/forms.py" />
+        <option value="$PROJECT_DIR$/inventory/templates/all_medicines.html" />
+        <option value="$PROJECT_DIR$/static/js/ajax.js" />
+        <option value="$PROJECT_DIR$/inventory/templates/medicine.html" />
+        <option value="$PROJECT_DIR$/inventory/models.py" />
+        <option value="$PROJECT_DIR$/inventory/templates/issue_to_patient.html" />
+        <option value="$PROJECT_DIR$/inventory/templates/ajax_search.html" />
+        <option value="$PROJECT_DIR$/inventory/templates/get_medicine_to_issue.html" />
+        <option value="$PROJECT_DIR$/inventory/urls.py" />
+        <option value="$PROJECT_DIR$/inventory/templates/issue_medicine.html" />
+        <option value="$PROJECT_DIR$/inventory/templates/allPatients.html" />
+        <option value="$PROJECT_DIR$/inventory/views.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="873" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyClassicStyleClassInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hospital" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hospital" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hospital" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hospital" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hospital" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hospital" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hospital" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hospital" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hospital" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inventory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hospital" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hospital" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inventory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hospital" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hospital" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="doctor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RunManager" selected="Django server.hospital">
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="hospital" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="hospital" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="hospital" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="hospital" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="hospital" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="hospital" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="hospital" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="hospital" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="hospital" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="hospital" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="hospital" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="hospital" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="hospital" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Django server.hospital" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0986e938-8369-46ba-87fd-dda7b30d437e" name="Default" comment="" />
+      <created>1460031830679</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1460031830679</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="873" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532189" sideWeight="0.89801323" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532189" sideWeight="0.10198676" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532189" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/inventory/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <marker date="1460033156000" expanded="true" signature="34:2178" placeholder="..." />
+            <marker date="1460033156000" expanded="true" signature="41:595" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doctor/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hospital/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+          <folding>
+            <element signature="e#644#695#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hospital/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#35#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inventory/templates/issue.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hospital/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="141" column="0" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inventory/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inventory/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/jquery-2.0.0.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inventory/templates/issue_to_patient.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inventory/templates/medicine.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inventory/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inventory/templates/ajax_search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inventory/templates/outgoingpatients.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="7" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doctor/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inventory/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inventory/templates/all_medicines.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" column="12" selection-start-line="25" selection-start-column="0" selection-end-line="31" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inventory/templates/allPatients.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inventory/templates/get_medicine_to_issue.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inventory/templates/issue_medicine.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inventory/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4145">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,4 +1,4 @@
-{% extends "base.html" %}
+{% extends "base3.html" %}
 
 {% block sidebar %}
 
@@ -6,45 +6,136 @@
 
 
 {% block content %}
-<form action="/doctor/{{doctor}}/create/" method="POST" enctype="multipart/form-data">{% csrf_token %}
+<style>
+#doctors{
 
-<div class="container">
+background-color:#ffffcc;
+}
+.well-sm{
+background-color:#ffccff;
+width: 50%;
+font-family: "Times New Roman";
+}
+#fill{
+background-color:#ffcc66;
+}
+
+
+</style>
+
+            <section id="container">
+               <div class="container">
 <div class="row">
 
-<div class="col-lg-4">
+                <div class="wrap-container clearfix">
+                    <div class="zerogrid">
+                    <br>
+     
+  <div class="col-md-4  sidebar">
+<ul class="nav nav-stacked">
+<div class="panel-group">
+    <div class="panel panel-info">
+      <div class="panel-heading"><a href="/doctor/{{doctor}}/all">Patients</a></div>
+    </div>
+
+    <div class="panel panel-info">
+      <div class="panel-heading"><a href="/doctor/{{doctor}}/create">Add new Patient</a></div>
+    </div>
+
+    <div class="panel panel-info">
+      <div class="panel-heading"><a href="/doctor/{{doctor}}/search">Search Patient</a></div>
+    </div>
+
+    <div class="panel panel-info">
+      <div class="panel-heading"><a href="/doctor/{{doctor}}/appointment">View Appointments</a></div>
+    </div>
+
+<div class="panel panel-info">
+      <div class="panel-heading"><a href="/accounts/logout">Logout</a></div>
+    </div>
+
+</div>
+
+</ul>
+</div>
+
+
+
+
+
+<div class="col-md-8">
+<div class="jumbotron">
+<form action="/doctor/{{doctor}}/create/" method="POST" enctype="multipart/form-data">{% csrf_token %}
 <div class="form-group">
 
-        
-      <label for="Patient_ID">Patient Id :</label>
+
+   <div class="well well-sm">  
+     
+      <label for="Patient_ID">
+        <h3>Patient Id :<span class="label label-default"></span></h3> 
+
+      </label>
+      </div>
+
       <div class="input-group">
       <input type="text" class="form-control" id="Patient_ID" name="Patient_ID" placeholder="Enter Id">
        <span class="input-group-addon"></span>
        </div>
         </div>
-<br>
+        <br>
+
         <div class="form-group">
-                    <label for="Patient_History"> Patient History </label>
-                    <div class="input-group">
-                        <input type="text" class="form-control" id="Patient_History" name="Patient_History" placeholder="Enter Email" required>
-                        <span class="input-group-addon"></span>
-                    </div>
+        <div class="well well-sm">  
+     
+      <label for="Patient_ID">
+        <h3>Patient History :<span class="label label-default"></span></h3> 
+
+      </label>
+      </div>
+              <br>
+                    
+                        <textarea class="form-control" id="Patient_History" rows="10" name="Patient_History" placeholder="History" required></textarea>
+                        
+                       
+                    
                 </div>
 
                <div class="form-group">
-    <label for="Credential">File input</label>
-    <input type="file" id="Credential" name="Credential">
+                <div class="well well-sm">  
+     
+      <label for="Credential">
+        <h3>Upload Prescription:<span class="label label-default"></span></h3> 
+
+      </label>
+      </div>
+      <input id="uploadFile" placeholder="Choose File" disabled="disabled" />
+    <div class="fileUpload btn btn-primary">
+    <span>Upload</span>
+       <input type="file" class="upload" id="Credential" name="Credential"/>
+</div>
+
     
   </div>
-
-
-
-
   <br><br>
-<input type="submit" name="submit" value="Add Patient">
+
+<button type="submit" class="btn btn-info" value="Add Patient">Add Patient</button>
 
 </form>
 
 <ul>
   <li><a href="/doctor/{{doctor}}/all">Cancel</a></li>
 </ul>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+</div>
+</div>
+</section>
 {% endblock %}

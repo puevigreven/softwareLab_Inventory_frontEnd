@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block sidebar %}
+
+<li><a href="/inventory/all_med">View All Medicines</a></li>
+<li><a href="/inventory/create">Add Medicines</a></h2></li>
+<li><a href="/inventory/outGoingPatients">Out Going Patients</a></h2></li>
+
+{% endblock %}
+
+{% block content %}
+
+<html>
+<body>
+<h1> {{medicine.medicine_name}} </h1>
+<p> EXPIRY DATE:{{ medicine.expiry_date }} </p>
+<p> QUANTITY REMAINING: {{medicine.quantity}} </p>
+<p> PRICE: {{medicine.price}} </p>
+<p> batch number: {{medicine.batch_number}} </p>
+<li><a href="/inventory/issueMedicines_toPatients/{{patient.id}}/{{medicine.batch_number}}">Issue Medicine</a></h2></li>
+
+</body>
+</html>
+{% endblock %}

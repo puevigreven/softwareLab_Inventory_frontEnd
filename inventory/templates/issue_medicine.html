@@ -1,4 +1,5 @@
-<form action="/inventory/issueMedicines/{{ med_name }}/" method="post">{% csrf_token %}
+<form action="/inventory/issueMedicines_toPatients/{{patient.id}}/{{ batch_num }}/" method="post">{% csrf_token %}
+    <p>Issuing medicine for {{ patient.Patient_ID }}</p>
     <label for="medicine_quantity">Medicine Quantity: </label>
     <input id="medicine_quantity" type="number" name="medicine_quantity" value="{{ 0 }}">
     <input type="submit" value="OK">

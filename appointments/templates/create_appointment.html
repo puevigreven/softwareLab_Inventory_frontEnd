@@ -5,10 +5,32 @@
 
 {% endblock %}
 
-
-
-
 {% block content %}
+<style>
+#doctors{
+<section id="container">
+                <div class="wrap-container clearfix">
+                    <div class="zerogrid">
+                    <br>
+                    <br>
+background-color:#ffffcc;
+}
+.well-sm{
+background-color:#ffccff;
+width: 50%;
+font-family: "Times New Roman";
+}
+#fill{
+background-color:#ffcc66;
+}
+
+
+</style>
+
+
+
+
+
 <section id="container">
                 <div class="wrap-container clearfix">
                     <div class="zerogrid">
@@ -16,32 +38,55 @@
                     <br>
 <div class="container">
   <div class="row">
-  <div class="col-lg-4">
-<h1><u>List of doctors</h1></u>
-
+  <div class="col-lg-6">
+    <div class="well well-sm">
+ <h1>List of doctors</h1>
+</div>
 {% for practitioners in practitioner %}
 
-<p>{{ practitioners.Practitioner_Name}}</p>
-</div>
- </div>
-                </div>
-                </div>
-{% endfor %}
+<table class="table table-hover ">
+    <thead>
+      <tr>
+        <th id ="doctors"><p>{{ practitioners.Practitioner_Name}}</p> </th>
+    </tr>
+</thead>
+</table>
 
-<div class="container">
-    <div class="row"><br><br>
+
+
+
+
+               
+{% endfor %}
+<div class="post">
+                                            <a href="/appointments/availability/" target="_blank">      
+                                                <h3 style="font-size: 30px" text-color:>View the availability of doctors</h3>
+                                            </a>
+                                        </div>
+</div>
+
+
     
-    <div class="col-lg-4">
-                <div class="well well-sm"><strong>Please fill the appointment form</strong></div>
-                </div>
-                </div>
-                </div>
+    
+    <div class="col-lg-6">
+                <div class="well well-sm" id="fill"><strong>Please fill the appointment form</strong></div>
+               
+               
 
 
 <form action="/appointments/create/{{patient_id}}/" method="POST" enctype="multipart/form-data">{% csrf_token %}
 <div class="form-group">
 
-                    <label for="id_NameOfDoctor">NameOfDoctor</label>
+<div class="well well-sm">  
+     
+      <label for="id_NameOfDoctor">
+        <h3>NameOfDoctor :<span class="label label-default"></span></h3> 
+
+      </label>
+      </div>
+
+
+            
                     <div class="input-group">
                         <input type="text" class="form-control" name="NameOfDoctor" id="id_NameOfDoctor" maxlength="100" placeholder="Enter Name" required>
                         <span class="input-group-addon"></span>
@@ -50,7 +95,15 @@
 
                     <div class="form-group">
 
-                    <label for="id_DateOfBirth">DateOfBirth</label>
+                    <div class="well well-sm">  
+     
+      <label for="id_DateOfBirth">
+        <h3>Date Of Birth :<span class="label label-default"></span></h3> 
+
+      </label>
+      </div>
+
+                
                     <div class="input-group">
                         <input type="date" class="form-control" name="DateOfBirth" id="id_DateOfBirth" placeholder="Enter Name" required>
                         <span class="input-group-addon"></span>
@@ -59,27 +112,54 @@
 
                      <div class="form-group">
 
-                    <label for="id_Contact">Contact</label>
+ <div class="well well-sm">  
+     
+      <label for="id_Contact">
+        <h3>Contact :<span class="label label-default"></span></h3> 
+
+      </label>
+      </div>
+    
                     <div class="input-group">
                         <input type="text" class="form-control" name="Contact" id="id_Contact" placeholder="Enter Contact Number" required>
                         <span class="input-group-addon"></span>
                     </div>
                     </div>
 
+<div class="form-group">
 
-                    <label for="id_PatientId">PatientId</label>
+ <div class="well well-sm">  
+     
+      <label for="id_PatientId">
+        <h3>PatientId :<span class="label label-default"></span></h3> 
+
+      </label>
+      </div>
                     <div class="input-group">
                         <input type="text" class="form-control" name="PatientId" id="id_PatientId" placeholder="Enter Name" required>
                         <span class="input-group-addon"></span>
                     </div>
+                    <br>
                     </div>
-<input type="submit" name="submit" value="Add Appoitment">
-<ul>
-	<li><a href="/accounts/loggedin/{{patient_id}}">Cancel</a></li>
-</ul>
 
+                    <div class="row">
+        <div class="col-lg-4">
+<input class="btn btn-success" type="submit" name="submit" value="Add Appoitment">
+
+    
+</div>
+
+<div class="col-lg-4">
+<ul class="btn btn-danger">
+    <li ><a href="/accounts/loggedin/{{patient_id}}" >Cancel</a></li>
+
+</ul>
+</div>
+</div>
 </form>
+</div>
 </div>
 </div>
 </section>
 {% endblock %}
+
